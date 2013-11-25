@@ -1,0 +1,536 @@
+/* Large desktop */
+@media ( min-width : 1000px) {
+	body {
+		/*padding-top: 23px;*/
+	}
+	#homeStatsBar{
+		margin-top:0;
+	}
+}
+
+/* Portrait tablet to landscape and desktop */
+@media ( min-width : 768px) and (max-width: 999px){
+	#homeStatsBar{
+		/*margin-top:-19px;*/
+	}
+}
+@media (max-width: 767px){
+	#homeStatsBar{
+		/*margin-top:-19px;*/
+	}
+}
+
+@font-face {
+ font-family:Michroma;
+ src: url(../font/Michroma.ttf);
+}
+
+@font-face {
+ font-family:Michroma;
+ src: url(../font/Michroma.eot);
+} 
+
+body { /* 	padding-top: 60px; */
+background-image: url(../../battlegrounds/img/overlay-main.jpg); 
+ 	background-repeat: no-repeat; 
+	background-color:#fff; 
+ 	background-attachment:fixed; 
+ 	background-position: center top; 
+}
+
+html,body {
+	height: 100%;
+	/* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by it's height */
+	margin: 0 auto 0px;
+}
+
+/* Set the fixed height of the footer here */
+#push,#footer {
+	height: 60px;
+}
+
+#footer {
+	background-color: #f5f5f5;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media ( max-width : 767px) {
+	#footer {
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+.hidden {
+	display: none;
+}
+
+#queueArea {
+	position: fixed;
+	bottom: 0;
+	right: 10px;
+	background-color: #000;
+	color: #FFFFFF;
+	padding: 2px 5px;
+}
+
+#notification {
+	width: 500px;
+	position: fixed;
+	top: 50px;
+	margin: auto;
+}
+
+.float_right {
+	float: right;
+}
+
+.float_left {
+	float: left;
+}
+
+.clearer {
+	clear: both;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+/* Carousel */
+.eloCarousel .item>div { /* 	height: 155px; */
+	background-position: 50% 8px;
+	background-repeat: no-repeat;
+}
+
+.eloCarousel .item .title {
+	font-weight: bold;
+	padding: 2px 3px;
+}
+
+div.dataTables_length label {
+	float: left;
+	text-align: left;
+}
+
+div.dataTables_length select {
+	width: 75px;
+}
+
+div.dataTables_filter label {
+	float: right;
+}
+
+div.dataTables_info {
+	padding-top: 8px;
+}
+
+div.dataTables_paginate {
+	float: right;
+	margin: 0;
+}
+
+table.table {
+	clear: both;
+	margin-bottom: 6px !important;
+	max-width: none !important;
+}
+
+.heroUnitElo {
+	position: absolute;
+	font-size: 24.5px;
+	margin: 54px 0px;
+	width: 131px;
+}
+
+.eloAwardElo {
+	position: absolute;
+	font-size: 24.5px;
+	margin: 48px 0px;
+	width: 100%;
+	color: whitesmoke;
+}
+
+.eloAwardMatchMode {
+	position: absolute;
+	margin: 130px 0;
+	width: 100%;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.eloAwardWins {
+	position: absolute;
+	margin: 130px 0px 0px -50px;
+	width: 100%;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.eloAwardLoses {
+	position: absolute;
+	margin: 130px 0px 0px 50px;
+	width: 100%;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.heroUnitElo.qualifying {
+	color: whitesmoke;
+}
+
+.heroUnitElo.platinum {
+	color: whitesmoke;
+}
+
+.heroUnitElo.diamond {
+	color: whitesmoke;
+}
+
+.heroUnitElo.gold {
+	color: whitesmoke;
+}
+
+.heroUnitElo.silver {
+	color: whitesmoke;
+}
+
+.heroUnitElo.bronze {
+	color: whitesmoke;
+}
+
+.heroUnitImg {
+	margin: -40px 0px;
+}
+
+table.table thead .sorting,table.table thead .sorting_asc,table.table thead .sorting_desc,table.table thead .sorting_asc_disabled,table.table thead .sorting_desc_disabled
+	{
+	cursor: pointer;
+	*cursor: hand;
+}
+
+table.table thead .sorting {
+	background: url('../img/sort_both.png') no-repeat center right;
+}
+
+table.table thead .sorting_asc {
+	background: url('../img/sort_asc.png') no-repeat center right;
+}
+
+table.table thead .sorting_desc {
+	background: url('../img/sort_desc.png') no-repeat center right;
+}
+
+table.table thead .sorting_asc_disabled {
+	background: url('../img/sort_asc_disabled.png') no-repeat center right;
+}
+
+table.table thead .sorting_desc_disabled {
+	background: url('../img/sort_desc_disabled.png') no-repeat center right;
+}
+
+table.dataTable th:active {
+	outline: none;
+}
+
+/* Scrolling */
+div.dataTables_scrollHead table {
+	margin-bottom: 0 !important;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+div.dataTables_scrollHead table thead tr:last-child th:first-child,div.dataTables_scrollHead table thead tr:last-child td:first-child
+	{
+	border-bottom-left-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+}
+
+div.dataTables_scrollBody table {
+	border-top: none;
+	margin-bottom: 0 !important;
+}
+
+div.dataTables_scrollBody tbody tr:first-child th,div.dataTables_scrollBody tbody tr:first-child td
+	{
+	border-top: none;
+}
+
+div.dataTables_scrollFoot table {
+	border-top: none;
+}
+
+/*
+ * TableTools styles
+ */
+.table tbody tr.active td,.table tbody tr.active th {
+	background-color: #08C;
+	color: white;
+}
+
+.table tbody tr.active:hover td,.table tbody tr.active:hover th {
+	background-color: #0075b0 !important;
+}
+
+.table-striped tbody tr.active:nth-child(odd) td,.table-striped tbody tr.active:nth-child(odd) th
+	{
+	background-color: #017ebc;
+}
+
+table.DTTT_selectable tbody tr {
+	cursor: pointer;
+	*cursor: hand;
+}
+
+div.DTTT .btn {
+	color: #333 !important;
+	font-size: 12px;
+}
+
+div.DTTT .btn:hover {
+	text-decoration: none !important;
+}
+
+ul.DTTT_dropdown.dropdown-menu a {
+	color: #333 !important;
+	/* needed only when demo_page.css is included */
+}
+
+ul.DTTT_dropdown.dropdown-menu li:hover a {
+	background-color: #0088cc;
+	color: white !important;
+}
+
+/* TableTools information display */
+div.DTTT_print_info.modal {
+	height: 150px;
+	margin-top: -75px;
+	text-align: center;
+}
+
+div.DTTT_print_info h6 {
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 28px;
+	margin: 1em;
+}
+
+div.DTTT_print_info p {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+/*
+ * FixedColumns styles
+ */
+div.DTFC_LeftHeadWrapper table,div.DTFC_LeftFootWrapper table,table.DTFC_Cloned tr.even
+	{
+	background-color: white;
+}
+
+div.DTFC_LeftHeadWrapper table {
+	margin-bottom: 0 !important;
+	border-top-right-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+}
+
+div.DTFC_LeftHeadWrapper table thead tr:last-child th:first-child,div.DTFC_LeftHeadWrapper table thead tr:last-child td:first-child
+	{
+	border-bottom-left-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+}
+
+div.DTFC_LeftBodyWrapper table {
+	border-top: none;
+	margin-bottom: 0 !important;
+}
+
+div.DTFC_LeftBodyWrapper tbody tr:first-child th,div.DTFC_LeftBodyWrapper tbody tr:first-child td
+	{
+	border-top: none;
+}
+
+div.DTFC_LeftFootWrapper table {
+	border-top: none;
+}
+
+.notificationIconText {
+	font-size: 10px;
+	height: 10px;
+	padding: 0px 4px 4px;
+	margin-left: -16px;
+	margin-bottom: 17px;
+}
+
+/* TR Plazierungen hintergrund classen -> damit 1/2/3 Platz sich von den anderen unterscheiden */
+.trFirstPlace > td{
+/* 	border-left: 10px solid gold; */
+/* 	border-right: 10px solid gold; */
+	background-color: #FFF09B !important; 
+}
+
+.trSecondPlace > td{
+/* 	border-left: 10px solid silver; */
+/* 	border-right: 10px solid silver; */
+	background-color: #E2E2E2 !important; 
+}
+
+.trThirdPlace > td{
+/* 	border-left: 10px solid peru; */
+/* 	border-right: 10px solid peru; */
+	background-color: #EBCEB1 !important; 
+}
+
+#homeHeroUnit {
+	background-image: url("../img/homeBGCarousel.png");
+	height: 376px;
+}
+
+#homeHeroUnit h4{
+	color:#666;
+}
+
+#homeStatsBar {
+/* 	border-bottom: #ddd 1px solid; */
+	height: 50px;
+/* 	background-color: #F5F5F5; */
+background-color:#292929;
+	color:whitesmoke;
+	 margin: -30px -30px 30px -30px;
+}
+#homeStatsBar .label {
+	background-color:#ABEB00;
+	color:#333;
+}
+
+.paginate_button{
+	padding: 4px 12px;
+	line-height: 20px;
+	text-decoration: none;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	border-left-width: 0;
+	cursor:pointer;
+}
+
+.paginate_button:first-child{
+	border-left-width: 1px;
+}
+
+.paginate_active{
+	padding: 4px 12px;
+		background-color: #ffffff;
+	border: 1px solid #dddddd;
+	text-decoration: underline;
+}
+
+.paginate_button_disabled{
+color: #999999;
+cursor: default;
+background-color: #f5f5f5;
+
+}
+
+.g_gracket { width: 9999px; background-color: #fff; padding: 55px 15px 5px; line-height: 100%; position: relative; overflow: hidden;}
+.g_round { float: left; margin-right: 70px; }
+.g_game { position: relative; margin-bottom: 15px; }
+.g_gracket h3 { margin: 0; padding: 10px 8px 8px; font-size: 18px; font-weight: normal; color: #fff}
+.g_team { background: #3597AE; }
+.g_team:last-child {  background: #FCB821; }
+.g_round:last-child { margin-right: 20px; }
+.g_winner { background: #444; }
+.g_winner .g_team { background: none; }
+.g_current { cursor: pointer; background: #A0B43C!important; }
+.g_round_label { top: -5px; font-weight: normal; color: #CCC; text-align: center; font-size: 18px; }
+
+
+
+/*#wrap{
+ 	background-image: url(../../battlegrounds/img/overlay-main.jpg); 
+ 	background-repeat: no-repeat; 
+	background-color:#fff; 
+ 	background-attachment:fixed; 
+ 	background-position: center top; 
+}*/
+
+#globalBG > div.container{
+	background-color:#fff;
+ 	padding:30px; 
+	min-height:1080px;
+width:1110px;
+/* 	border:2px solid grey; */
+}
+
+.greenH2{
+	font-family: Michroma;
+	background-color: #e47b44;
+	color: #FFF;
+	padding:10px 15px;
+	font-size: 19px;
+}
+
+.blackH2{
+	text-transform: uppercase;
+	font-size: 20px;
+	background-color: #292929;
+	padding:10px 15px;
+	font-family: Michroma;
+	color:#FFF;
+}
+
+.blackH4{
+	text-transform: uppercase;
+	font-size: 16px;
+	background-color: #292929;
+	padding:5px 10px;
+	font-family: Michroma;
+	color:#FFF;
+	margin-top:0;
+	font-weight: normal;
+}
+
+.blackH2 green, .blackH4 green{
+	color:#e47b44
+}
+
+.blackStyle{
+	background-color: #292929;
+	color:#FFF;
+	font-family: Michroma;
+}
+
+.fontMich{
+	font-family: Michroma;
+}
+
+#topNavi .navbar-inner{
+	border-radius: 0px;
+	background:#ffffff;
+line-height:35px;
+	
+}
+
+.navbar .nav>li {
+float: left;
+height: 60px;
+line-height: 42px;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 18px;
+}
+
+.navbar .nav > li > a{
+	color:#313131 !important;
+height: 40px;
+line-height: 42px;
+}

@@ -1,0 +1,13 @@
+<thead>
+	<tr>
+		<th>Player</th>
+		<th>Lvl</th>
+		<th>Hero</th>
+		<th>K</th>
+		<th>D</th>
+		<th>A</th>
+		<th>Gold</th>
+		<th>CS</th>
+		<th>Denies</th>
+	</tr>
+</thead>

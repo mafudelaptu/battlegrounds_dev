@@ -1,0 +1,1 @@
+<p class="alert alert-error">You have to login via Steam first, before you can join a queue!</p>
