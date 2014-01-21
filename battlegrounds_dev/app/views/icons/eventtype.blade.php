@@ -1,0 +1,1 @@
+{{HTML::image("img/event/".$matchmode_id."_icon.jpg", "", array("width"=>"100%"))}}
