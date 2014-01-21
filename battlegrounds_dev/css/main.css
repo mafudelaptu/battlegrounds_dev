@@ -11,6 +11,24 @@ body{
 	background-attachment: fixed;
 	background-position: center top;
 }
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -80px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+	height: 80px; /* .push must be the same height as .footer */
+}
+
+.footer{
+	margin-top: 50px;
+	padding: 15px;
+	background-color: #ededed;
+}
+.footer a{
+	line-height: 50px;
+}
 
 #wrap{
 	min-height: 100%;
@@ -60,15 +78,6 @@ body{
 	padding:5px;
 }
 
-.footer{
-	height: 80px;
-	margin-top: 50px;
-	padding: 15px;
-	background-color: #ededed;
-}
-.footer a{
-	line-height: 50px;
-}
 
 .text-bronze{
 color: peru;

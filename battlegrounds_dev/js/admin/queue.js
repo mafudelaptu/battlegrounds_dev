@@ -12,7 +12,7 @@ function initInsertInQueueButtons(){
 	buttons.click(function(){
 		var matchtype_id = $(this).attr("data-id");
 		$.ajax({
-				url : "admin/queue/insertInQueue",
+				url : ARENA_PATH+"/admin/queue/insertInQueue",
 				type : "POST",
 				dataType : 'json',
 				data : {
@@ -30,7 +30,7 @@ function initSetAllReadyButton(){
 	$("#setAllReadyButton").click(function(){
 		var match_id = $("#submitAllMatchAcceptMatchID").val();
 		$.ajax({
-				url : "admin/queue/setAllReady",
+				url : ARENA_PATH+"/admin/queue/setAllReady",
 				type : "POST",
 				dataType : 'json',
 				data : {
@@ -49,7 +49,7 @@ function initInsertFakeMatchSubmits(){
 		var match_id = $("#fakeSubmittsMatchID").val();
 		var teamWonID = $("input[name='fakeSubmittsTeamWon']:checked").val();
 		$.ajax({
-				url : "admin/queue/insertFakeMatchSubmits",
+				url : ARENA_PATH+"/admin/queue/insertFakeMatchSubmits",
 				type : "POST",
 				dataType : 'json',
 				data : {
