@@ -46,18 +46,11 @@ function initSelectMatchmodesOnclick(){
 
 function getSelectedMatchmodes(matchtype_id){
 	ret = new Array();
-	switch(matchtype_id){
-		case 2:
-			ret.push(5);
-			break;
-		default:
-			var labels = $("#selectedMatchmodesCheckboxes label>input:checked");
-			$.each(labels, function(key, value){
-				matchmode_id = $(value).val();
-				ret.push(matchmode_id);
-			});
-			break;
-	}
+	var labels = $("#selectedMatchmodesCheckboxes label>input:checked");
+	$.each(labels, function(key, value){
+		matchmode_id = $(value).val();
+		ret.push(matchmode_id);
+	});
 	
 	return ret;
 }

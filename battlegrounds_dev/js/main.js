@@ -33,7 +33,7 @@ function setConfirmUnload(on) {
 
 function setRegion(id){
   $.ajax({
-      url : "setRegion",
+      url : ARENA_PATH+"/setRegion",
       type : "POST",
       dataType : 'json',
       data : {
