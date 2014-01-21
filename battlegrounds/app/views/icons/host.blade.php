@@ -1,1 +1,0 @@
-<span class="t" title="Host - have to create the Lobby"><i class="fa fa-home"></i></span>
