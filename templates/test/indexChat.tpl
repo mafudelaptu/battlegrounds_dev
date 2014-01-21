@@ -1,1 +1,0 @@
-{include "prototypes/chat.tpl" chatID="adminChat"};

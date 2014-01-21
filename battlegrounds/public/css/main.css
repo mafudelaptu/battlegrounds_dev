@@ -1,0 +1,169 @@
+html, body{
+	height: 100%;
+
+}
+body{
+	padding:0;
+	margin:0;
+	background-image: url(../img/globalBG.jpg);
+	background-repeat: no-repeat;
+	background-color: #fff;
+	background-attachment: fixed;
+	background-position: center top;
+}
+
+#wrap{
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+	margin: 0 auto -80px;
+	padding-bottom: 80px;
+}
+
+.main-container{
+	width:1212px;
+	margin:0 auto;
+}
+
+#topNavi ul.nav > li > a{
+	height: 73px;
+	line-height: 43px;
+	font-size: 18px;
+}
+#topNavi{
+	border-radius: 0px;
+	box-shadow: none;
+}
+
+#header_section{
+	background-color: #242424;
+}
+
+#header_stats{
+	background-color: whitesmoke;
+	margin:10px;
+}
+#header_stats ul{
+	list-style: none;
+	padding: 0;
+	margin:0;
+}
+
+#header_section{
+	background-image: url(../img/featured/test_feature.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: left top;
+}
+
+.tab-pane{
+	padding:5px;
+}
+
+.footer{
+	height: 80px;
+	margin-top: 50px;
+	padding: 15px;
+	background-color: #ededed;
+}
+.footer a{
+	line-height: 50px;
+}
+
+.text-bronze{
+color: peru;
+text-shadow: 1px 1px 2px #999;
+}
+.text-silver{
+color: silver;
+text-shadow: 1px 1px 2px #666;
+}
+.text-gold{
+color: gold;
+text-shadow: 1px 1px 2px #666;
+}
+
+.clearer{
+	clear:both;
+}
+
+.label-inverse{
+	background-color: #000;
+}
+
+.badge-danger{
+	background-color: #d9534f;
+}
+.badge-primary{
+	background-color: #428bca;
+}
+
+.badge-warning{
+	background-color: #f0ad4e;
+}
+.badge-info{
+	background-color: #5bc0de;
+}
+.badge-success{
+	background-color: #5cb85c;
+}
+
+tr.info>td{
+background-color: #d9edf7 !important;
+}
+
+.custom2H2{
+	font-family: Michroma;
+	background-color: #9CDB04;
+	color: #FFF;
+	padding:10px 15px;
+	font-size: 19px;
+}
+
+.customH2{
+	text-transform: uppercase;
+	font-size: 20px;
+	background-color: #292929;
+	padding:10px 15px;
+	font-family: Michroma;
+	color:#FFF;
+}
+.customH2 span, .blackH4 span{
+	color:#9CDB04;
+}
+
+.text-bronze{
+color: peru;
+}
+.text-silver{
+color: silver;
+}
+.text-gold{
+color: gold;
+}
+
+.medalIcon{
+	width:32px;
+	height:32px;
+}
+.medalIconBgClass{
+	background-repeat: no-repeat;
+}
+.medalIconInnerText{
+	font-weight:bold;
+	color:whitesmoke;
+	padding: 2px 0 0 11px;
+}
+
+.notificationIconText {
+	font-size: 10px;
+	height: 12px;
+	padding: 0px 4px;
+	position: absolute;
+	right: 20px;
+	top: 14px;
+}
+
+.pointer{
+	cursor: pointer;
+}

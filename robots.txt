@@ -1,8 +1,0 @@
-User-agent: *
-Disallow: /inc/
-Disallow: /js/
-Disallow: /admin/
-Disallow: /chat/
-Disallow: /classes/
-Disallow: /uplaods/
-Disallow: /cronjobs/
