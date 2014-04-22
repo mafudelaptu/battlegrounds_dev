@@ -1,1 +1,0 @@
-<i class='fa fa-exclamation-circle'></i>&nbsp;

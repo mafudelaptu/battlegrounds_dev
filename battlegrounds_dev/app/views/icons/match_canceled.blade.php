@@ -1,1 +1,0 @@
-<i class="icon-remove t" title="Match canceled"></i>
