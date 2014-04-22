@@ -1,1 +1,7 @@
 services.manifest
+/cache
+/guard
+/logs
+/meta
+/sessions
+/views
