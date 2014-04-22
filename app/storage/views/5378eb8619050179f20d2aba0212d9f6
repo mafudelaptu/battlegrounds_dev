@@ -1,0 +1,1 @@
+<?php if(!empty($newsData) && !empty($newsData[0])): ?> <?php foreach($newsData as $k => $v): ?> <div class="custom2H2"> <?php echo $v->title; ?> </div> <div class="newsContent"> <?php echo $v->content; ?> </div> <?php endforeach; ?> <?php else: ?> <div class="alert alert-warning"> No active news! </div> <?php endif; ?>

@@ -1,0 +1,180 @@
+[2014-01-22 17:26:06] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Cannot redeclare class CreateMatchtypesTable' in /home/www/dotacinema/arena_dev/app/database/migrations/2014_01_21_205417_create_matchtypes_table.php:0
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-22 17:26:23] log.ERROR: exception 'InvalidArgumentException' with message 'Database [] not configured.' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php:184
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(108): Illuminate\Database\DatabaseManager->getConfig(NULL)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection(NULL)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(169): Illuminate\Database\DatabaseManager->connection(NULL)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(137): Illuminate\Database\Migrations\DatabaseMigrationRepository->getConnection()
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(370): Illuminate\Database\Migrations\DatabaseMigrationRepository->repositoryExists()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(95): Illuminate\Database\Migrations\Migrator->repositoryExists()
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(58): Illuminate\Database\Console\Migrations\MigrateCommand->prepareDatabase()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#8 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#14 {main} [] []
+[2014-01-22 17:26:30] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Cannot redeclare class CreateMatchtypesTable' in /home/www/dotacinema/arena_dev/app/database/migrations/2014_01_21_205417_create_matchtypes_table.php:0
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-22 17:28:26] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Cannot redeclare class CreateMatchtypesTable' in /home/www/dotacinema/arena_dev/app/database/migrations/2014_01_21_205417_create_matchtypes_table.php:0
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-22 17:29:36] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dotacinema_arena.users' doesn't exist' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDOStatement->execute(Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'truncate `users...', Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('truncate `users...', Array, Object(Closure))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1523): Illuminate\Database\Connection->statement('truncate `users...', Array)
+#4 /home/www/dotacinema/arena_dev/app/database/seeds/UsersTableSeeder.php(8): Illuminate\Database\Query\Builder->truncate()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Seeder.php(38): UsersTableSeeder->run()
+#6 /home/www/dotacinema/arena_dev/app/database/seeds/DatabaseSeeder.php(15): Illuminate\Database\Seeder->call('UsersTableSeede...')
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Console/SeedCommand.php(53): DatabaseSeeder->run()
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): Illuminate\Database\Console\SeedCommand->fire()
+#9 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\SeedCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#15 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dotacinema_arena.users' doesn't exist (SQL: truncate `users`) (Bindings: array (
+))' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'truncate `users...', Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('truncate `users...', Array, Object(Closure))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1523): Illuminate\Database\Connection->statement('truncate `users...', Array)
+#3 /home/www/dotacinema/arena_dev/app/database/seeds/UsersTableSeeder.php(8): Illuminate\Database\Query\Builder->truncate()
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Seeder.php(38): UsersTableSeeder->run()
+#5 /home/www/dotacinema/arena_dev/app/database/seeds/DatabaseSeeder.php(15): Illuminate\Database\Seeder->call('UsersTableSeede...')
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Console/SeedCommand.php(53): DatabaseSeeder->run()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): Illuminate\Database\Console\SeedCommand->fire()
+#8 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\SeedCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#14 {main} [] []
+[2014-01-22 17:29:56] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Cannot redeclare class CreateMatchtypesTable' in /home/www/dotacinema/arena_dev/app/database/migrations/2014_01_21_205417_create_matchtypes_table.php:0
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-22 17:51:38] log.ERROR: exception 'InvalidArgumentException' with message 'Command "migration" is not defined.
+
+Did you mean one of these?
+    migrate
+    generate:migration' in /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php:617
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(188): Symfony\Component\Console\Application->find('migration')
+#1 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2014-01-22 17:51:41] log.ERROR: exception 'InvalidArgumentException' with message 'Command "migrations" is not defined.' in /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php:617
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(188): Symfony\Component\Console\Application->find('migrations')
+#1 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2014-01-22 17:52:02] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dotacinema_arena.matchtypes' doesn't exist' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDOStatement->execute(Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'alter table `ma...', Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('alter table `ma...', Array, Object(Closure))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('alter table `ma...')
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(150): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(75): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(209): Illuminate\Database\Schema\Builder->table('matchtypes', Object(Closure))
+#7 /home/www/dotacinema/arena_dev/app/database/migrations/2013_12_11_104944_add_matchtype_playercount.php(17): Illuminate\Support\Facades\Facade::__callStatic('table', Array)
+#8 /home/www/dotacinema/arena_dev/app/database/migrations/2013_12_11_104944_add_matchtype_playercount.php(17): Illuminate\Support\Facades\Schema::table('matchtypes', Object(Closure))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(137): AddMatchtypePlayercount->up()
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(113): Illuminate\Database\Migrations\Migrator->runUp('2013_12_11_1049...', 1, false)
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(84): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(67): Illuminate\Database\Migrations\Migrator->run('/home/www/dotac...', false)
+#13 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#14 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#20 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dotacinema_arena.matchtypes' doesn't exist (SQL: alter table `matchtypes` add `playercount` int not null) (Bindings: array (
+))' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'alter table `ma...', Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('alter table `ma...', Array, Object(Closure))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('alter table `ma...')
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(150): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(75): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(209): Illuminate\Database\Schema\Builder->table('matchtypes', Object(Closure))
+#6 /home/www/dotacinema/arena_dev/app/database/migrations/2013_12_11_104944_add_matchtype_playercount.php(17): Illuminate\Support\Facades\Facade::__callStatic('table', Array)
+#7 /home/www/dotacinema/arena_dev/app/database/migrations/2013_12_11_104944_add_matchtype_playercount.php(17): Illuminate\Support\Facades\Schema::table('matchtypes', Object(Closure))
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(137): AddMatchtypePlayercount->up()
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(113): Illuminate\Database\Migrations\Migrator->runUp('2013_12_11_1049...', 1, false)
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(84): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(67): Illuminate\Database\Migrations\Migrator->run('/home/www/dotac...', false)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#13 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#19 {main} [] []
+[2014-01-22 17:53:11] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dotacinema_arena.matchtypes' doesn't exist' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDOStatement->execute(Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'alter table `ma...', Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('alter table `ma...', Array, Object(Closure))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('alter table `ma...')
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(150): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(75): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(209): Illuminate\Database\Schema\Builder->table('matchtypes', Object(Closure))
+#7 /home/www/dotacinema/arena_dev/app/database/migrations/2013_12_11_104944_add_matchtype_playercount.php(17): Illuminate\Support\Facades\Facade::__callStatic('table', Array)
+#8 /home/www/dotacinema/arena_dev/app/database/migrations/2013_12_11_104944_add_matchtype_playercount.php(17): Illuminate\Support\Facades\Schema::table('matchtypes', Object(Closure))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(137): AddMatchtypePlayercount->up()
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(113): Illuminate\Database\Migrations\Migrator->runUp('2013_12_11_1049...', 2, false)
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(84): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(67): Illuminate\Database\Migrations\Migrator->run('/home/www/dotac...', false)
+#13 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#14 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#20 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dotacinema_arena.matchtypes' doesn't exist (SQL: alter table `matchtypes` add `playercount` int not null) (Bindings: array (
+))' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'alter table `ma...', Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('alter table `ma...', Array, Object(Closure))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('alter table `ma...')
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(150): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(75): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(209): Illuminate\Database\Schema\Builder->table('matchtypes', Object(Closure))
+#6 /home/www/dotacinema/arena_dev/app/database/migrations/2013_12_11_104944_add_matchtype_playercount.php(17): Illuminate\Support\Facades\Facade::__callStatic('table', Array)
+#7 /home/www/dotacinema/arena_dev/app/database/migrations/2013_12_11_104944_add_matchtype_playercount.php(17): Illuminate\Support\Facades\Schema::table('matchtypes', Object(Closure))
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(137): AddMatchtypePlayercount->up()
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(113): Illuminate\Database\Migrations\Migrator->runUp('2013_12_11_1049...', 2, false)
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(84): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(67): Illuminate\Database\Migrations\Migrator->run('/home/www/dotac...', false)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#13 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#19 {main} [] []

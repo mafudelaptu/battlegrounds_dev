@@ -1,0 +1,1 @@
+<div align="center"> <div> <?php echo HTML::image('img/skillbracket/'.$skillbracket_id.'.png', $skillbracket, array("class"=>'heroUnitImg')); ?> </div> <div> <strong><?php echo $skillbracket; ?></strong> </div> </div>

@@ -1,0 +1,47 @@
+<?php if($team_id == 1): ?>
+<?php $alertClass = "success"; ?>
+<?php else: ?>
+<?php $alertClass = "danger"; ?>
+<?php endif; ?>
+
+<?php 
+$team_won_glow = "";
+if($matchState == "closed" && $team_id == $matchData->team_won_id){
+	$team_won_glow = "team_won_glow_";
+	if($team_id == 1){
+		$team_won_glow .= "green";
+	}
+	else{
+		$team_won_glow .= "red";
+	}
+}
+ ?>
+
+<div class="box <?php echo $team_won_glow; ?> mt_10" style="overflow:visible;">
+	<div class="box_title team-title ">
+		<div class="row">
+			<div class="col-sm-1">
+				<?php echo HTML::image("img/dc/svun_small.png", "svun small"); ?>
+			</div>
+			<div class="col-sm-10 text-center">
+				<?php echo $team[$team_id]; ?> 
+
+				<?php if($matchState == "closed" && $team_id == $matchData->team_won_id): ?>
+				<?php echo $__env->make("matches.match.middle_area_result_closed", array("team"=>$team, "team_won_id"=> $matchData->team_won_id), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+				<?php endif; ?>
+
+				<div class="label t" title="team-points"><?php echo $teamStats['team_'.$team_id]; ?></div>
+				
+			</div>
+			<div class="col-sm-1 text-right">
+				<?php echo HTML::image("img/dc/svun_small_mirrored.png", "svun small"); ?>
+			</div>
+		</div>
+	</div>
+	<div class="box_content" style="padding-top:5px; padding-bottom: 5px; overflow:visible;">
+		<?php foreach($data as $i=>$player): ?>
+		<?php echo $__env->make("matches.match.team_player", array('playerdata' => $player, "iteration"=>$i), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+		<?php endforeach; ?>
+	</div>
+</div>

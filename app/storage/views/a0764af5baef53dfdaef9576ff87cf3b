@@ -1,0 +1,1 @@
+<div class="<?php echo $tClass; ?>"><strong><?php echo $team; ?></strong></div>

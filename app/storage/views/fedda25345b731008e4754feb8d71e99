@@ -1,0 +1,5 @@
+<?php if( $matchtype_id == 1): ?>
+	<i class="fa fa-user t" style="display: inline-block" title="<?php echo $matchtype; ?>-Queue"></i>
+<?php else: ?>
+	<span class="label label-inverse t " title="<?php echo $matchtype; ?>-Queue"><?php echo $matchtype; ?></span>
+<?php endif; ?>

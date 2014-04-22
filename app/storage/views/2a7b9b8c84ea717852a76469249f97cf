@@ -1,0 +1,26 @@
+<?php if(!empty($newsData) && !empty($newsData[0])): ?>
+<div class="row">
+	<div class="col-sm-4">
+		<?php echo HTML::image("img/dc/svun.png", "Svun", array('width' => "100%")); ?>
+	</div>
+	<div class="col-sm-8">
+		
+		<?php foreach($newsData as $k => $v): ?>
+		<div class="custom2H2">
+			<?php echo $v->title; ?>
+		</div>
+		<div class="newsContent">
+			<?php echo $v->content; ?>
+		</div>
+		<?php endforeach; ?>
+</div>
+</div>
+<?php else: ?>
+<div align="center">
+<?php echo HTML::image("img/dc/svun.png", "Svun", array('height' => "143")); ?>
+</div>
+	<!-- 
+	<div class="alert alert-warning">
+		No active news!
+	</div> -->
+<?php endif; ?>

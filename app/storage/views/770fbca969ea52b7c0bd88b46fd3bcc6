@@ -1,0 +1,46 @@
+<div class="row" id="match_middle_area">
+	<div class="col-sm-4" align="right">
+		<dl class="dl-horizontal">
+		  <dt>Matchmode:</dt>
+		  <dd><div class="badge badge-info" class="t" title="<?php echo $matchmode; ?>"><?php echo $mm_shortcut; ?></div></dd>
+		  <dt>Region:</dt>
+		  <dd><div class="badge badge-danger" class="t" title="<?php echo $region; ?>"><?php echo $r_shortcut; ?></div></dd>
+		  <dt>MatchID:</dt>
+		  <dd><div class="badge"><?php echo $match_id; ?></div></dd>
+		</dl>
+	</div>
+	<div class="col-sm-4" align="center">
+		<div>
+			<div class="label label-default"><?php echo $teamStats['team_1']; ?></div>
+		</div>
+		<div class="h1">VS</div>
+		<div>
+			<div class="label label-default"><?php echo $teamStats['team_2']; ?></div>
+		</div>
+	</div>
+	<div class="col-sm-4">
+		<?php if($inMatch && $matchState == "open"): ?>
+			<?php /*  in Match und noch nix gemacht  */ ?>
+			<?php echo $__env->make("matches.match.middle_area_result_open", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+			
+		<?php elseif($inMatch && $matchState == "submitted"): ?>
+			<?php /*  in Match und submitted  */ ?>
+			<?php echo $__env->make("matches.match.middle_area_result_submitted", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		<?php elseif($matchState == "closed"): ?>
+			<?php /*  Matchresult ist fest  */ ?>
+			<?php echo $__env->make("matches.match.middle_area_result_closed", array("team"=>$team, "team_won_id"=> $matchData->team_won_id), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		<?php elseif($matchState == "canceled"): ?>
+			<?php /*  Matchresult ist fest  */ ?>
+			<?php echo $__env->make("matches.match.middle_area_result_canceled", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+			
+		<?php else: ?>
+			<?php /*  Besucher: spieler in Match  */ ?>
+			<?php echo $__env->make("matches.match.middle_area_result_visitor", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		<?php endif; ?>
+
+		<?php if($matchData->matchtype_id != "2" && $inMatch): ?>
+			<?php echo $__env->make("matches.match.middle_area_replayUpload", array("uploaded"=>$replaySubmitted), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		<?php endif; ?>
+	</div>
+	<div class="clearer"></div>
+</div>

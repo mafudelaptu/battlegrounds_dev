@@ -1,0 +1,23 @@
+<style type="text/css">
+	#wrapper{
+		background: #fff !important;
+	}
+</style>
+<?php $__env->startSection("topnavi"); ?>
+	
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection("content"); ?>
+	<h1 align="center"><?php echo $title; ?></h1>
+	<p align="center">
+		You have to be logged-in in our forum to access this page. 
+	</p>
+	<p align="center">
+		<a href="<?php echo GlobalSetting::getForumLink(); ?>">go to forum</a>
+	</p>
+	
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection("footer"); ?>
+	
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make("master", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

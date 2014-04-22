@@ -1,0 +1,12 @@
+<tr>
+	<td><img alt="Avatar" src="<?php echo $data->avatar; ?>" width="25" height="25">&nbsp;<?php echo $data->name; ?></td>
+	<td><?php echo $data->lvl; ?></td>
+	<td><?php echo $data->heroname; ?></td>
+	<td><?php echo $data->kills; ?></td>
+	<td><?php echo $data->deaths; ?></td>
+	<td><?php echo $data->assists; ?></td>
+	<td><?php echo $data->cs; ?></td>
+	<td><?php echo $data->denies; ?></td>
+	<td class="text-warning"><?php echo $data->gpm; ?></td>
+	<td class="text-info"><?php echo $data->epm; ?></td>
+</td>

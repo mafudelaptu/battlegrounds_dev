@@ -1,0 +1,10 @@
+<?php if(!empty($data) && count($data) > 0): ?>
+
+	<?php foreach($data as $k => $v): ?>
+		<?php echo $__env->make("prototypes.chat.chatUser", array("data"=>$v, "chatname"=>$chatname, "isSteamGame"=>$isSteamGame), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+	<?php endforeach; ?>
+<?php else: ?>
+	<div class="alert alert-warning">
+		no users in chat
+	</div>
+<?php endif; ?>

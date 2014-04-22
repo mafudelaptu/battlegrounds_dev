@@ -1,0 +1,106 @@
+<?php $__env->startSection('content'); ?>
+
+<div class="box" style="overflow:visible">
+    <div class="box_title">
+        <div class="row">
+            <div class="col-sm-4"><?php echo $matchData['matchtype']; ?></div>
+            <div class="col-sm-4 text-center">MatchID: <strong><?php echo $match_id; ?></strong></div>
+            <div class="col-sm-4 text-right">
+                Matchmode&nbsp;&nbsp;<span class="badge badge-info" class="t" title="<?php echo $matchData->matchmode; ?>"><?php echo $matchData->mm_shortcut; ?></span>&nbsp;&nbsp;
+                 Region&nbsp;&nbsp;<span class="badge badge-danger" class="t" title="<?php echo $matchData->region; ?>"><?php echo $matchData->r_shortcut; ?></span>
+            </div>
+        </div>
+    </div>
+    <div class="box_content">
+        <?php if(!empty($matchPlayersData)): ?>
+        <?php echo $__env->make("matches.match.info", array('matchmode' => $matchData['matchmode'], "region" => $matchData['region'], "mm_shortcut" => $matchData['mm_shortcut'], "r_shortcut" => $matchData['r_shortcut']), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+        <div class="row">
+            <div class="col-sm-5" style="width:495px;">
+                <?php echo $__env->make("matches.match.team", array('data' => $matchPlayersData[1], "team_id" => 1), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+            </div>
+            <?php 
+                if($matchData->matchtype_id != 2){
+                    $lineHeight = "line-height:220px";
+                }
+                else{
+                    $lineHeight = "";
+                }
+             ?>
+            <div class="col-sm-1" style="padding:0; width:98px; <?php echo $lineHeight; ?>">
+                <?php echo HTML::image("img/match/VS_blue.png", "Versus", array("width"=>"100%")); ?>
+            </div>
+            <div class="col-sm-5" style="width:495px;">
+                <?php echo $__env->make("matches.match.team", array('data' => $matchPlayersData[2], "team_id" => 2), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+            </div>
+        </div>
+        
+<div class="row">
+            <div class="col-sm-8">
+                  <?php if($inMatch && $matchState == "open"): ?>
+                <?php /*  in Match und noch nix gemacht  */ ?>
+                <?php echo $__env->make("matches.match.middle_area_result_open", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+                
+                <?php elseif($inMatch && $matchState == "submitted"): ?>
+                <?php /*  in Match und submitted  */ ?>
+                <?php echo $__env->make("matches.match.middle_area_result_submitted", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+                <?php elseif($matchState == "closed"): ?>
+
+                <?php elseif($matchState == "canceled"): ?>
+                <?php /*  Matchresult ist fest  */ ?>
+                <?php echo $__env->make("matches.match.middle_area_result_canceled", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+                
+                <?php else: ?>
+                <?php /*  Besucher: spieler in Match  */ ?>
+                <?php echo $__env->make("matches.match.middle_area_result_visitor", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+                <?php endif; ?>
+           
+            </div>
+            <div class="col-sm-4">
+                <?php if($matchData->matchtype_id != "2" && $inMatch): ?>
+            
+                <?php echo $__env->make("matches.match.middle_area_replayUpload", array("uploaded"=>$replaySubmitted), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+            
+            <?php endif; ?>
+            </div>
+        </div>
+
+        <?php echo $__env->make("matches.match.replay.index", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+        <?php 
+
+        if($inMatch && ($matchState == "open" || $matchState == "submitted")){
+
+            $disableChat = false;
+        }
+        else{
+            $disableChat = true;
+        }
+
+        ?>
+        <?php if($matchData['matchtype_id'] != "2"): ?>
+        <?php echo $__env->make("prototypes.chat.chatNew", array("chatname"=>"matchChat".$matchData['id'], "disableChat" => $disableChat, "height"=>"200px"), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+        <?php else: ?>
+        <?php if(($matchState =="submitted" || $matchState == "closed") && !empty($screenshots)): ?>
+        <div class="row">
+            <div class="col-sm-6">
+
+                <?php echo $__env->make("prototypes.chat.chatNew", array("chatname"=>"matchChat".$matchData['id'], "disableChat" => $disableChat,  "height"=>"200px"), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+            </div>
+            <div class="col-sm-6">
+
+                <?php echo $__env->make("matches.match.screenshots", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+            </div>
+        </div>
+        <?php else: ?>
+        <?php echo $__env->make("prototypes.chat.chatNew", array("chatname"=>"matchChat".$matchData['id'], "disableChat" => $disableChat, "height"=>"200px"), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+        <?php endif; ?>
+
+        <?php endif; ?>
+
+        <?php else: ?>
+        <p>access denied!</p>
+        <?php endif; ?>
+    </div>
+</div>
+<?php $__env->stopSection(); ?>

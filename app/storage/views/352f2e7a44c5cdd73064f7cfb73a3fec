@@ -1,0 +1,32 @@
+<div class="box" id="selectMatchmodesPanel">
+	<div class="box_title pointer" id="selectMatchmodesButton">
+		select match mode
+	</div>
+	<div class="box_content" id="selectMatchmodesContent" style="display:none">
+		<div id="selectedMatchmodesCheckboxes">
+			<?php foreach($matchmodes as $mm): ?>
+			<?php 
+			if(!empty($_COOKIE['selectedMatchmodes'])){
+				if(in_array($mm->id, $_COOKIE['selectedMatchmodes'])){
+					$badgeClass = "info";
+					$checked = "checked='checked'";
+				}
+				else{
+					$badgeClass = "default";
+					$checked = "";
+				}
+			}
+			else{
+				$badgeClass = "default";
+				$checked = "";
+			}
+			?>
+			<label class="checkbox">
+				<input type="checkbox" value="<?php echo $mm->id; ?>" name="selectedMatchmode" <?php echo $checked; ?>><span class="badge badge-<?php echo $badgeClass; ?> t" title="<?php echo $mm->name; ?>"><?php echo $mm->shortcut; ?></span>
+			</label>
+			
+			<?php endforeach; ?>
+			
+		</div>
+	</div>
+</div>

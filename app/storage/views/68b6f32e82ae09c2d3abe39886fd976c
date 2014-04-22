@@ -1,0 +1,35 @@
+<?php $__env->startSection('content'); ?>
+
+    <h1><?php echo $title; ?></h1>
+<?php if(!empty($data) && count($data)>0): ?>
+    <div id="faqInhaltsverzeichnis" class="well">
+    	<a name="top"></a>
+	<ol>
+		<?php foreach($data as $k=>$v): ?>
+			<li>
+				<a href="#anker_<?php echo $k; ?>" alt="<?php echo $v->caption; ?>">
+					<?php echo $v->caption; ?>
+				</a>
+			</li>
+		<?php endforeach; ?>
+	</ol>
+</div>
+<div id="faqContent">
+	
+		<?php foreach($data as $k=>$v): ?>
+			<h3><a name="anker_<?php echo $k; ?>"></a><?php echo ($k+1); ?>. <?php echo $v->caption; ?></h3>
+			<?php echo $v->content; ?>
+			<p class="text-right">
+				<a href="#top">go to top</a>
+			</p>
+		<?php endforeach; ?>
+	
+</div>
+
+<div class"clearer"><br></div>
+<?php else: ?>
+	<div class="alert alert-warning">
+		no FAQ's
+	</div>
+<?php endif; ?>
+<?php $__env->stopSection(); ?>

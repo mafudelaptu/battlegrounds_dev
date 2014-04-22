@@ -1,0 +1,13 @@
+<?php if(Auth::check()): ?>
+  <li id="fat-menu" class="dropdown right region_dropdown">
+    <a href="#" id="drop3" role="button" class="dropdown-toggle" data-toggle="dropdown">
+        <?php echo $selected_region; ?>
+      <b class="caret"></b>
+  </a>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="drop3" id="regionMenu">
+     <?php foreach($regions as $region): ?>
+       <li><a tabindex="-1" href="javascript:void(0)" data-id="<?php echo $region->id; ?>"><?php echo $region->shortcut; ?></a></li>
+     <?php endforeach; ?>
+  </ul>
+  </li>
+<?php endif; ?>

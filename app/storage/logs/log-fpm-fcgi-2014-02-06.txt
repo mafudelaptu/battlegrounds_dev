@@ -1,0 +1,414 @@
+[2014-02-06 00:00:07] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/css/bootstrap.min.css [] []
+[2014-02-06 00:00:07] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-06 00:09:48] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/news/forum/vods/6767 [] []
+[2014-02-06 00:09:48] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-06 01:18:03] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/arena [] []
+[2014-02-06 01:18:03] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-06 01:24:35] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/arena [] []
+[2014-02-06 01:24:35] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-06 01:27:45] log.ERROR: exception 'ErrorException' with message 'Undefined index: avatar' in /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4:1
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4(1): Illuminate\Exception\Handler->handleError(8, 'Undefined index...', '/home/www/dotac...', 1, Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/www/dotac...')
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/www/dotac...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/www/dotac...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/www/dotacinema/arena_dev/app/controllers/FetchViewController.php(107): Illuminate\View\View->render()
+#6 [internal function]: FetchViewController->getChatUsers()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getChatUsers', Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getChatUsers', Array)
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#13 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#17 {main} [] []
+[2014-02-06 01:27:45] log.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in /home/www/dotacinema/arena_dev/app/models/GlobalSetting.php:341
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/models/GlobalSetting.php(341): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', '/home/www/dotac...', 341, Array)
+#1 /home/www/dotacinema/arena_dev/app/models/Chat.php(25): GlobalSetting::getChatHistoryCount()
+#2 /home/www/dotacinema/arena_dev/app/controllers/ChatsController.php(27): Chat::getOlderMessages('homeChatGeneral')
+#3 [internal function]: ChatsController->getOlderMessages()
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getOlderMessage...', Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getOlderMessage...', Array)
+#7 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#14 {main} [] []
+[2014-02-06 01:27:51] log.ERROR: exception 'ErrorException' with message 'Undefined index: avatar' in /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4:1
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4(1): Illuminate\Exception\Handler->handleError(8, 'Undefined index...', '/home/www/dotac...', 1, Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/www/dotac...')
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/www/dotac...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/www/dotac...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/www/dotacinema/arena_dev/app/controllers/FetchViewController.php(107): Illuminate\View\View->render()
+#6 [internal function]: FetchViewController->getChatUsers()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getChatUsers', Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getChatUsers', Array)
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#13 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#17 {main} [] []
+[2014-02-06 01:27:51] log.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in /home/www/dotacinema/arena_dev/app/models/GlobalSetting.php:341
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/models/GlobalSetting.php(341): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', '/home/www/dotac...', 341, Array)
+#1 /home/www/dotacinema/arena_dev/app/models/Chat.php(25): GlobalSetting::getChatHistoryCount()
+#2 /home/www/dotacinema/arena_dev/app/controllers/ChatsController.php(27): Chat::getOlderMessages('homeChatGeneral')
+#3 [internal function]: ChatsController->getOlderMessages()
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getOlderMessage...', Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getOlderMessage...', Array)
+#7 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#14 {main} [] []
+[2014-02-06 01:55:12] log.ERROR: exception 'ErrorException' with message 'Undefined index: avatar' in /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4:1
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4(1): Illuminate\Exception\Handler->handleError(8, 'Undefined index...', '/home/www/dotac...', 1, Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/www/dotac...')
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/www/dotac...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/www/dotac...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/www/dotacinema/arena_dev/app/controllers/FetchViewController.php(107): Illuminate\View\View->render()
+#6 [internal function]: FetchViewController->getChatUsers()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getChatUsers', Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getChatUsers', Array)
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#13 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#17 {main} [] []
+[2014-02-06 01:55:50] log.ERROR: exception 'ErrorException' with message 'Undefined index: avatar' in /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4:1
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4(1): Illuminate\Exception\Handler->handleError(8, 'Undefined index...', '/home/www/dotac...', 1, Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/www/dotac...')
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/www/dotac...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/www/dotac...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/www/dotacinema/arena_dev/app/controllers/FetchViewController.php(107): Illuminate\View\View->render()
+#6 [internal function]: FetchViewController->getChatUsers()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getChatUsers', Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getChatUsers', Array)
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#13 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#17 {main} [] []
+[2014-02-06 02:12:43] log.ERROR: exception 'ErrorException' with message 'Undefined index: avatar' in /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4:1
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4(1): Illuminate\Exception\Handler->handleError(8, 'Undefined index...', '/home/www/dotac...', 1, Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/www/dotac...')
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/www/dotac...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/www/dotac...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/www/dotacinema/arena_dev/app/controllers/FetchViewController.php(107): Illuminate\View\View->render()
+#6 [internal function]: FetchViewController->getChatUsers()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getChatUsers', Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getChatUsers', Array)
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#13 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#17 {main} [] []
+[2014-02-06 02:56:48] log.ERROR: exception 'ErrorException' with message 'Undefined index: avatar' in /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4:1
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4(1): Illuminate\Exception\Handler->handleError(8, 'Undefined index...', '/home/www/dotac...', 1, Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/www/dotac...')
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/www/dotac...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/www/dotac...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/www/dotacinema/arena_dev/app/controllers/FetchViewController.php(107): Illuminate\View\View->render()
+#6 [internal function]: FetchViewController->getChatUsers()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getChatUsers', Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getChatUsers', Array)
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#13 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#17 {main} [] []
+[2014-02-06 02:57:32] log.ERROR: exception 'ErrorException' with message 'Undefined index: avatar' in /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4:1
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4(1): Illuminate\Exception\Handler->handleError(8, 'Undefined index...', '/home/www/dotac...', 1, Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/www/dotac...')
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/www/dotac...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/www/dotac...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/www/dotacinema/arena_dev/app/controllers/FetchViewController.php(107): Illuminate\View\View->render()
+#6 [internal function]: FetchViewController->getChatUsers()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getChatUsers', Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getChatUsers', Array)
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#13 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#17 {main} [] []
+[2014-02-06 02:57:33] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/arena [] []
+[2014-02-06 02:57:33] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-06 02:57:34] log.ERROR: exception 'ErrorException' with message 'asort() expects parameter 1 to be array, string given' in /home/www/dotacinema/arena_dev/app/controllers/FetchViewController.php:101
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'asort() expects...', '/home/www/dotac...', 101, Array)
+#1 /home/www/dotacinema/arena_dev/app/controllers/FetchViewController.php(101): asort('')
+#2 [internal function]: FetchViewController->getChatUsers()
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getChatUsers', Array)
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getChatUsers', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-02-06 02:57:38] log.ERROR: exception 'ErrorException' with message 'Undefined index: avatar' in /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4:1
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4(1): Illuminate\Exception\Handler->handleError(8, 'Undefined index...', '/home/www/dotac...', 1, Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/www/dotac...')
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/www/dotac...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/www/dotac...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/www/dotacinema/arena_dev/app/controllers/FetchViewController.php(107): Illuminate\View\View->render()
+#6 [internal function]: FetchViewController->getChatUsers()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getChatUsers', Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getChatUsers', Array)
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#13 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#17 {main} [] []
+[2014-02-06 02:57:38] log.ERROR: exception 'ErrorException' with message 'Undefined index: avatar' in /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4:1
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4(1): Illuminate\Exception\Handler->handleError(8, 'Undefined index...', '/home/www/dotac...', 1, Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/www/dotac...')
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/www/dotac...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/www/dotac...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/www/dotacinema/arena_dev/app/controllers/FetchViewController.php(107): Illuminate\View\View->render()
+#6 [internal function]: FetchViewController->getChatUsers()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getChatUsers', Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getChatUsers', Array)
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#13 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#17 {main} [] []
+[2014-02-06 02:57:45] log.ERROR: exception 'ErrorException' with message 'asort() expects parameter 1 to be array, string given' in /home/www/dotacinema/arena_dev/app/controllers/FetchViewController.php:101
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'asort() expects...', '/home/www/dotac...', 101, Array)
+#1 /home/www/dotacinema/arena_dev/app/controllers/FetchViewController.php(101): asort('')
+#2 [internal function]: FetchViewController->getChatUsers()
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getChatUsers', Array)
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getChatUsers', Array)
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-02-06 03:14:31] log.ERROR: exception 'ErrorException' with message 'Undefined index: avatar' in /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4:1
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4(1): Illuminate\Exception\Handler->handleError(8, 'Undefined index...', '/home/www/dotac...', 1, Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/www/dotac...')
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/www/dotac...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/www/dotac...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/www/dotacinema/arena_dev/app/controllers/FetchViewController.php(107): Illuminate\View\View->render()
+#6 [internal function]: FetchViewController->getChatUsers()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getChatUsers', Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getChatUsers', Array)
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#13 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#17 {main} [] []
+[2014-02-06 04:09:55] log.ERROR: exception 'ErrorException' with message 'Undefined index: avatar' in /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4:1
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4(1): Illuminate\Exception\Handler->handleError(8, 'Undefined index...', '/home/www/dotac...', 1, Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/www/dotac...')
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/www/dotac...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/www/dotac...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/www/dotacinema/arena_dev/app/controllers/FetchViewController.php(107): Illuminate\View\View->render()
+#6 [internal function]: FetchViewController->getChatUsers()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getChatUsers', Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getChatUsers', Array)
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#13 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#17 {main} [] []
+[2014-02-06 04:15:39] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-06 04:15:39] log.ERROR: exception 'ErrorException' with message 'Undefined index: avatar' in /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4:1
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4(1): Illuminate\Exception\Handler->handleError(8, 'Undefined index...', '/home/www/dotac...', 1, Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/www/dotac...')
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/www/dotac...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/www/dotac...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/www/dotacinema/arena_dev/app/controllers/FetchViewController.php(107): Illuminate\View\View->render()
+#6 [internal function]: FetchViewController->getChatUsers()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getChatUsers', Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getChatUsers', Array)
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#13 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#17 {main} [] []
+[2014-02-06 04:15:39] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-06 04:16:57] log.ERROR: exception 'ErrorException' with message 'Array to string conversion' in /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4:1
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/storage/views/cb58bc1da9c20680405b0d8299ef65d4(1): Illuminate\Exception\Handler->handleError(8, 'Array to string...', '/home/www/dotac...', 1, Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/www/dotac...')
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/www/dotac...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/www/dotac...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/www/dotacinema/arena_dev/app/controllers/FetchViewController.php(107): Illuminate\View\View->render()
+#6 [internal function]: FetchViewController->getChatUsers()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getChatUsers', Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getChatUsers', Array)
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#13 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#14 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#17 {main} [] []
+[2014-02-06 12:58:09] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/live [] []
+[2014-02-06 12:58:09] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-06 13:26:57] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/news [] []
+[2014-02-06 13:26:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-06 16:18:42] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/termsofservice [] []
+[2014-02-06 16:18:42] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []

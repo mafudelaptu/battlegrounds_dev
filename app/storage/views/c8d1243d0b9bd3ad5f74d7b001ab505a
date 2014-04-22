@@ -1,0 +1,43 @@
+<?php if(Auth::check()): ?>
+
+	<?php if( $count > 0): ?>
+		<?php 
+			$dataToggle = "data-toggle='dropdown'";
+			$label = "danger";
+		 ?>
+	<?php else: ?>
+		<?php 
+			$count = 0;
+			$dataToggle = "";
+			$label = "";
+		 ?>
+	<?php endif; ?> 
+	<li id="notification-menu" class="dropdown region_dropdown">
+		<a id="dropNotification"
+		role="button" class="dropdown-toggle pointer" <?php echo $dataToggle; ?>> 
+			<i class="fa fa-envelope text-<?php echo $label; ?>"></i>
+			<?php if($count > 0): ?>
+				<span class="label label-default notificationIconText"> 
+					<?php echo $count; ?> 
+				</span>
+				<b class="caret"></b>
+			<?php endif; ?>
+		</a>
+
+		<ul class="dropdown-menu" role="menu" aria-labelledby="dropNotification">
+			<?php if( $count > 0): ?> 
+					<?php if(!empty($data)): ?>
+						<li>
+				 			 <?php foreach($data as $k => $v): ?>
+				 			 	<a tabindex="-1" href="<?php echo $v['href']; ?>">
+				 			 		<span class="label label-info"><?php echo $v['count']; ?></span>&nbsp;<?php echo $v['message']; ?>
+				 			 	</a>
+				 			 <?php endforeach; ?>
+				 		</li>
+				 	<?php endif; ?>
+				<?php else: ?>
+					<li><a tabindex="-1">No notifications</a></li>
+			<?php endif; ?> 
+		</ul>
+	</li>
+<?php endif; ?>

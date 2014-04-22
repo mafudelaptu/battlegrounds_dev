@@ -1,0 +1,83 @@
+<div class="box">
+<div class="customH2 box_title">Last<span>Matches</span></div>
+<div class="box_content">
+<?php if(!empty($lastMatches) && count($lastMatches) > 0): ?>
+	<table class="table table-striped">
+		<thead>
+			<tr align="center">
+				<th>Type</th>
+				<th>Result</th>
+				<th>MatchID</th>
+				<th>Mode</th>
+			</tr>
+		</thead>
+		
+		<tbody>
+		  <?php foreach($lastMatches as $key=>$v): ?>
+		  	<?php /* dd($v) */ ?>
+		  	<?php $vorzeichen = ""; ?>
+		  	<?php if($v['team_won_id'] == $v['team_id']): ?>
+		  		<?php 
+		  			$statusClass = "success";
+		  			$result = "won";
+		  		 ?>
+		  		<?php if(!$lastMatchesLeaverArray[$v['id']]): ?>
+		  			<?php $vorzeichen = "+"; ?>
+		  		<?php endif; ?>
+		  		
+		  	<?php else: ?>
+
+		  		<?php if($v['canceled'] == 1): ?>
+		  			<?php 
+		  				$result = "canceled";
+			  			$statusClass = "warning";
+			  		 ?>
+		  		<?php else: ?>
+		  			<?php 
+		  			$statusClass = "danger";
+		  			$result = "lost";
+		  		 ?>
+		  		<?php endif; ?>
+		  		
+		  	<?php endif; ?>
+		  	<?php if($v['pointschange'] == "" && $v['canceled'] == 1): ?>
+		  		<?php $v['pointschange'] = ""; ?>
+			<?php else: ?>
+			  	<?php if($v['pointschange'] == "" && $v['team_id'] == $v['team_id']): ?>
+			  		<?php $v['pointschange'] = "+0"; ?>
+			  	<?php elseif( $v['pointschange'] == "" && $v['team_id'] != $v['team_id']): ?>
+			  		<?php $v['pointschange'] = "-0"; ?>
+			  	<?php endif; ?>
+		  	<?php endif; ?>
+			
+		  	<tr>
+				<td style="text-align:center">
+					<?php echo $__env->make("icons.matchtype", array("matchtype_id"=>$v['matchtype_id'], "matchtype"=>$v['matchtype']), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+				</td>
+				<td><span class="label label-<?php echo $statusClass; ?>">
+					<?php if($v['canceled'] == 1): ?>
+		  				<?php echo $__env->make("icons.match_canceled", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		  				
+		  			<?php else: ?>
+		  				<?php echo $result; ?>
+		  			<?php endif; ?>
+					<?php echo $vorzeichen; ?><?php echo $v['pointschange']; ?>
+				</span>
+					<?php echo $__env->make("icons.leaver", array("leaver"=>$lastMatchesLeaverArray[$v['id']]), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+				</td>
+				<td>
+					<?php echo HTML::link("match/".$v['id'], $v['id']);; ?>
+				</td>
+				<td><span class="t" title="<?php echo $v['matchmode']; ?>"><?php echo $v['mm_shortcut']; ?></span></td>
+			</tr>
+		  <?php endforeach; ?>
+		</tbody>
+	</table>
+	<p>
+	<a href="<?php echo URL::to("lastMatches"); ?>">View All Matches <i class="icon-double-angle-right"></i></a>
+	</p>
+<?php else: ?>
+	<div class="alert alert-warning">No Matches found!</div>
+<?php endif; ?>
+</div>
+</div>

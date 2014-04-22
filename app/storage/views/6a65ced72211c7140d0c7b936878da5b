@@ -1,0 +1,1 @@
+<li><a href="<?php echo URL::to('profile/'.$user_id); ?>" target="_blank"><i class="icon-user"></i> show Profile</a></li> <li class="divider"></li> <li><a href="https://dotabuff.com/players/<?php echo $user_id; ?>" target="_blank">show DotaBuff-Profile</a></li> <li><a href="http://steamcommunity.com/profiles/<?php echo $user_id; ?>/" target="_blank">show Steam-Profile</a></li>

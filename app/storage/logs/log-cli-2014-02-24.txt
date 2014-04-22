@@ -1,0 +1,1060 @@
+[2014-02-24 16:42:05] log.ERROR: exception 'ErrorException' with message 'Operation timed out after 4000 milliseconds with 4344 out of 10658 bytes received' in /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php:1027
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(1024, 'Operation timed...', '/home/www/dotac...', 1027, Array)
+#1 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(1027): trigger_error('Operation timed...')
+#2 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(973): CronjobDoAllController->curl_get('http://api.stea...', Array)
+#3 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(62): CronjobDoAllController->getHeroList()
+#4 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#6 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2014-02-24 16:48:06] log.ERROR: exception 'ErrorException' with message 'Operation timed out after 4000 milliseconds with 4068 out of 10658 bytes received' in /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php:1027
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(1024, 'Operation timed...', '/home/www/dotac...', 1027, Array)
+#1 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(1027): trigger_error('Operation timed...')
+#2 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(973): CronjobDoAllController->curl_get('http://api.stea...', Array)
+#3 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(62): CronjobDoAllController->getHeroList()
+#4 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#6 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2014-02-24 18:09:06] log.ERROR: exception 'ErrorException' with message 'Operation timed out after 4000 milliseconds with 0 bytes received' in /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php:1027
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(1024, 'Operation timed...', '/home/www/dotac...', 1027, Array)
+#1 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(1027): trigger_error('Operation timed...')
+#2 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(973): CronjobDoAllController->curl_get('http://api.stea...', Array)
+#3 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(62): CronjobDoAllController->getHeroList()
+#4 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#6 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2014-02-24 20:51:01] log.ERROR: exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY'' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDOStatement->execute(Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#5 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#10 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#11 [internal function]: Usercredit->insert(Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#14 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#16 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#17 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#18 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#19 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#24 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY' (SQL: insert into `usercredits` (`user_id`, `voted_by_user_id`, `vote`, `match_id`, `created_at`, `updated_at`) values (?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => 76561198037062126,
+  1 => 76561198084559916,
+  2 => 2,
+  3 => 64,
+  4 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 20:51:01',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+  5 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 20:51:01',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+))' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `us...', Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#4 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#6 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#9 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#10 [internal function]: Usercredit->insert(Array)
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#12 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#14 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#16 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#17 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#18 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#24 {main} [] []
+[2014-02-24 20:54:01] log.ERROR: exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY'' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDOStatement->execute(Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#5 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#10 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#11 [internal function]: Usercredit->insert(Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#14 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#16 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#17 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#18 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#19 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#24 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY' (SQL: insert into `usercredits` (`user_id`, `voted_by_user_id`, `vote`, `match_id`, `created_at`, `updated_at`) values (?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => 76561198037062126,
+  1 => 76561198084559916,
+  2 => 2,
+  3 => 64,
+  4 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 20:54:01',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+  5 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 20:54:01',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+))' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `us...', Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#4 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#6 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#9 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#10 [internal function]: Usercredit->insert(Array)
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#12 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#14 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#16 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#17 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#18 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#24 {main} [] []
+[2014-02-24 20:57:01] log.ERROR: exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY'' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDOStatement->execute(Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#5 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#10 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#11 [internal function]: Usercredit->insert(Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#14 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#16 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#17 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#18 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#19 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#24 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY' (SQL: insert into `usercredits` (`user_id`, `voted_by_user_id`, `vote`, `match_id`, `created_at`, `updated_at`) values (?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => 76561198037062126,
+  1 => 76561198084559916,
+  2 => 2,
+  3 => 64,
+  4 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 20:57:01',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+  5 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 20:57:01',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+))' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `us...', Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#4 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#6 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#9 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#10 [internal function]: Usercredit->insert(Array)
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#12 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#14 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#16 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#17 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#18 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#24 {main} [] []
+[2014-02-24 21:00:03] log.ERROR: exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY'' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDOStatement->execute(Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#5 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#10 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#11 [internal function]: Usercredit->insert(Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#14 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#16 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#17 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#18 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#19 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#24 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY' (SQL: insert into `usercredits` (`user_id`, `voted_by_user_id`, `vote`, `match_id`, `created_at`, `updated_at`) values (?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => 76561198037062126,
+  1 => 76561198084559916,
+  2 => 2,
+  3 => 64,
+  4 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 21:00:03',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+  5 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 21:00:03',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+))' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `us...', Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#4 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#6 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#9 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#10 [internal function]: Usercredit->insert(Array)
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#12 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#14 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#16 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#17 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#18 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#24 {main} [] []
+[2014-02-24 21:03:01] log.ERROR: exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY'' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDOStatement->execute(Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#5 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#10 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#11 [internal function]: Usercredit->insert(Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#14 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#16 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#17 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#18 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#19 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#24 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY' (SQL: insert into `usercredits` (`user_id`, `voted_by_user_id`, `vote`, `match_id`, `created_at`, `updated_at`) values (?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => 76561198037062126,
+  1 => 76561198084559916,
+  2 => 2,
+  3 => 64,
+  4 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 21:03:01',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+  5 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 21:03:01',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+))' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `us...', Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#4 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#6 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#9 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#10 [internal function]: Usercredit->insert(Array)
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#12 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#14 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#16 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#17 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#18 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#24 {main} [] []
+[2014-02-24 21:06:01] log.ERROR: exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY'' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDOStatement->execute(Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#5 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#10 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#11 [internal function]: Usercredit->insert(Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#14 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#16 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#17 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#18 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#19 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#24 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY' (SQL: insert into `usercredits` (`user_id`, `voted_by_user_id`, `vote`, `match_id`, `created_at`, `updated_at`) values (?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => 76561198037062126,
+  1 => 76561198084559916,
+  2 => 2,
+  3 => 64,
+  4 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 21:06:01',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+  5 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 21:06:01',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+))' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `us...', Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#4 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#6 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#9 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#10 [internal function]: Usercredit->insert(Array)
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#12 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#14 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#16 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#17 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#18 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#24 {main} [] []
+[2014-02-24 21:09:02] log.ERROR: exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY'' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDOStatement->execute(Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#5 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#10 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#11 [internal function]: Usercredit->insert(Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#14 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#16 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#17 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#18 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#19 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#24 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY' (SQL: insert into `usercredits` (`user_id`, `voted_by_user_id`, `vote`, `match_id`, `created_at`, `updated_at`) values (?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => 76561198037062126,
+  1 => 76561198084559916,
+  2 => 2,
+  3 => 64,
+  4 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 21:09:02',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+  5 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 21:09:02',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+))' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `us...', Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#4 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#6 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#9 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#10 [internal function]: Usercredit->insert(Array)
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#12 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#14 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#16 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#17 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#18 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#24 {main} [] []
+[2014-02-24 21:12:01] log.ERROR: exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY'' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDOStatement->execute(Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#5 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#10 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#11 [internal function]: Usercredit->insert(Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#14 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#16 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#17 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#18 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#19 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#24 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY' (SQL: insert into `usercredits` (`user_id`, `voted_by_user_id`, `vote`, `match_id`, `created_at`, `updated_at`) values (?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => 76561198037062126,
+  1 => 76561198084559916,
+  2 => 2,
+  3 => 64,
+  4 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 21:12:01',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+  5 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 21:12:01',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+))' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `us...', Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#4 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#6 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#9 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#10 [internal function]: Usercredit->insert(Array)
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#12 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#14 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#16 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#17 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#18 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#24 {main} [] []
+[2014-02-24 21:15:02] log.ERROR: exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY'' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDOStatement->execute(Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#5 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#10 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#11 [internal function]: Usercredit->insert(Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#14 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#16 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#17 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#18 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#19 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#24 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY' (SQL: insert into `usercredits` (`user_id`, `voted_by_user_id`, `vote`, `match_id`, `created_at`, `updated_at`) values (?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => 76561198037062126,
+  1 => 76561198084559916,
+  2 => 2,
+  3 => 64,
+  4 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 21:15:02',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+  5 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 21:15:02',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+))' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `us...', Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#4 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#6 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#9 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#10 [internal function]: Usercredit->insert(Array)
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#12 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#14 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#16 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#17 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#18 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#24 {main} [] []
+[2014-02-24 21:18:01] log.ERROR: exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY'' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDOStatement->execute(Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#5 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#10 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#11 [internal function]: Usercredit->insert(Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#14 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#16 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#17 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#18 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#19 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#24 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY' (SQL: insert into `usercredits` (`user_id`, `voted_by_user_id`, `vote`, `match_id`, `created_at`, `updated_at`) values (?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => 76561198037062126,
+  1 => 76561198084559916,
+  2 => 2,
+  3 => 64,
+  4 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 21:18:01',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+  5 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 21:18:01',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+))' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `us...', Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#4 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#6 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#9 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#10 [internal function]: Usercredit->insert(Array)
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#12 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#14 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#16 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#17 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#18 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#24 {main} [] []
+[2014-02-24 21:21:02] log.ERROR: exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY'' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDOStatement->execute(Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#5 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#10 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#11 [internal function]: Usercredit->insert(Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#14 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#16 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#17 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#18 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#19 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#24 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY' (SQL: insert into `usercredits` (`user_id`, `voted_by_user_id`, `vote`, `match_id`, `created_at`, `updated_at`) values (?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => 76561198037062126,
+  1 => 76561198084559916,
+  2 => 2,
+  3 => 64,
+  4 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 21:21:02',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+  5 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 21:21:02',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+))' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `us...', Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#4 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#6 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#9 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#10 [internal function]: Usercredit->insert(Array)
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#12 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#14 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#16 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#17 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#18 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#24 {main} [] []
+[2014-02-24 21:24:02] log.ERROR: exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY'' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDOStatement->execute(Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#5 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#10 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#11 [internal function]: Usercredit->insert(Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#14 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#16 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#17 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#18 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#19 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#24 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY' (SQL: insert into `usercredits` (`user_id`, `voted_by_user_id`, `vote`, `match_id`, `created_at`, `updated_at`) values (?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => 76561198037062126,
+  1 => 76561198084559916,
+  2 => 2,
+  3 => 64,
+  4 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 21:24:02',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+  5 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 21:24:02',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+))' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `us...', Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#4 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#6 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#9 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#10 [internal function]: Usercredit->insert(Array)
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#12 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#14 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#16 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#17 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#18 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#24 {main} [] []
+[2014-02-24 21:24:16] log.ERROR: exception 'ErrorException' with message 'Argument 1 passed to Illuminate\Redis\Database::__construct() must be of the type array, null given, called in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Redis/RedisServiceProvider.php on line 23 and defined' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Redis/Database.php:20
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Redis/Database.php(20): Illuminate\Exception\Handler->handleError(4096, 'Argument 1 pass...', '/home/www/dotac...', 20, Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Redis/RedisServiceProvider.php(23): Illuminate\Redis\Database->__construct(NULL)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Container/Container.php(149): Illuminate\Redis\RedisServiceProvider->Illuminate\Redis\{closure}(Object(Illuminate\Foundation\Application))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Container/Container.php(305): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Container/Container.php(250): Illuminate\Container\Container->build(Object(Closure), Array)
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(480): Illuminate\Container\Container->make('redis', Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Container/Container.php(537): Illuminate\Foundation\Application->make('redis')
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(144): Illuminate\Container\Container->offsetGet('redis')
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(198): Illuminate\Support\Facades\Facade::resolveFacadeInstance('redis')
+#9 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(7): Illuminate\Support\Facades\Facade::__callStatic('connect', Array)
+#10 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(7): Illuminate\Support\Facades\Redis::connect()
+#11 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#13 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#19 {main} [] []
+[2014-02-24 21:24:22] log.ERROR: exception 'ErrorException' with message 'Argument 1 passed to Illuminate\Redis\Database::__construct() must be of the type array, null given, called in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Redis/RedisServiceProvider.php on line 23 and defined' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Redis/Database.php:20
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Redis/Database.php(20): Illuminate\Exception\Handler->handleError(4096, 'Argument 1 pass...', '/home/www/dotac...', 20, Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Redis/RedisServiceProvider.php(23): Illuminate\Redis\Database->__construct(NULL)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Container/Container.php(149): Illuminate\Redis\RedisServiceProvider->Illuminate\Redis\{closure}(Object(Illuminate\Foundation\Application))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Container/Container.php(305): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Container/Container.php(250): Illuminate\Container\Container->build(Object(Closure), Array)
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(480): Illuminate\Container\Container->make('redis', Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Container/Container.php(537): Illuminate\Foundation\Application->make('redis')
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(144): Illuminate\Container\Container->offsetGet('redis')
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(198): Illuminate\Support\Facades\Facade::resolveFacadeInstance('redis')
+#9 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(7): Illuminate\Support\Facades\Facade::__callStatic('connect', Array)
+#10 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(7): Illuminate\Support\Facades\Redis::connect()
+#11 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#13 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#19 {main} [] []
+[2014-02-24 21:25:00] log.ERROR: exception 'ErrorException' with message 'Argument 1 passed to Illuminate\Redis\Database::__construct() must be of the type array, null given, called in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Redis/RedisServiceProvider.php on line 23 and defined' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Redis/Database.php:20
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Redis/Database.php(20): Illuminate\Exception\Handler->handleError(4096, 'Argument 1 pass...', '/home/www/dotac...', 20, Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Redis/RedisServiceProvider.php(23): Illuminate\Redis\Database->__construct(NULL)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Container/Container.php(149): Illuminate\Redis\RedisServiceProvider->Illuminate\Redis\{closure}(Object(Illuminate\Foundation\Application))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Container/Container.php(305): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Container/Container.php(250): Illuminate\Container\Container->build(Object(Closure), Array)
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(480): Illuminate\Container\Container->make('redis', Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Container/Container.php(537): Illuminate\Foundation\Application->make('redis')
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(144): Illuminate\Container\Container->offsetGet('redis')
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(198): Illuminate\Support\Facades\Facade::resolveFacadeInstance('redis')
+#9 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(7): Illuminate\Support\Facades\Facade::__callStatic('connect', Array)
+#10 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(7): Illuminate\Support\Facades\Redis::connect()
+#11 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#13 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#19 {main} [] []
+[2014-02-24 21:25:28] log.ERROR: exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY'' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDOStatement->execute(Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `us...', Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#5 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#8 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#10 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#11 [internal function]: Usercredit->insert(Array)
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#14 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#16 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#17 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#18 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#19 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#24 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '76561198037062126-64-76561198084559916' for key 'PRIMARY' (SQL: insert into `usercredits` (`user_id`, `voted_by_user_id`, `vote`, `match_id`, `created_at`, `updated_at`) values (?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => 76561198037062126,
+  1 => 76561198084559916,
+  2 => 2,
+  3 => 64,
+  4 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 21:25:28',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+  5 => 
+  DateTime::__set_state(array(
+     'date' => '2014-02-24 21:25:28',
+     'timezone_type' => 3,
+     'timezone' => 'CET',
+  )),
+))' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `us...', Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `us...', Array, Object(Closure))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `us...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1428): Illuminate\Database\Connection->insert('insert into `us...', Array)
+#4 [internal function]: Illuminate\Database\Query\Builder->insert(Array)
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(786): call_user_func_array(Array, Array)
+#6 [internal function]: Illuminate\Database\Eloquent\Builder->__call('insert', Array)
+#7 [internal function]: Illuminate\Database\Eloquent\Builder->insert(Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2653): call_user_func_array(Array, Array)
+#9 [internal function]: Illuminate\Database\Eloquent\Model->__call('insert', Array)
+#10 [internal function]: Usercredit->insert(Array)
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2667): call_user_func_array(Array, Array)
+#12 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Illuminate\Database\Eloquent\Model::__callStatic('insert', Array)
+#13 /home/www/dotacinema/arena_dev/app/models/Usercredit.php(39): Usercredit::insert(Array)
+#14 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(304): Usercredit::insertCredit(76561198037062126, 76561198084559916, 2, 64)
+#15 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(17): CronjobDoAllController->uservotesHandling()
+#16 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#17 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#18 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#24 {main} [] []

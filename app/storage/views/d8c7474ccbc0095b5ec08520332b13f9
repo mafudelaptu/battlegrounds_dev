@@ -1,0 +1,31 @@
+<?php if(!empty($matchtypes)): ?>
+<ul class="nav nav-pills" id="ladderNavi">
+	<?php foreach($matchtypes as $key => $mt): ?>
+		<?php if(empty($_GET['ladder'])): ?>
+			<?php if($key === 0): ?>
+			<?php 
+				$active = "active";
+			?>
+			<?php else: ?>
+			<?php 
+				$active = "";
+			?>
+			<?php endif; ?>
+		<?php else: ?>
+			<?php if($mt->id == $_GET['ladder']): ?>
+			<?php 
+				$active = "active";
+			?>
+			<?php else: ?>
+			<?php 
+				$active = "";
+			?>
+			<?php endif; ?>
+		<?php endif; ?>
+	
+	<li class="<?php echo $active; ?>" data-mtid="<?php echo $mt->id; ?>">
+		<a href="?f=0&ladder=<?php echo $mt->id; ?>"><?php echo $mt->name; ?>-Ladder</a>
+	</li>
+	<?php endforeach; ?>
+</ul>
+<?php endif; ?>

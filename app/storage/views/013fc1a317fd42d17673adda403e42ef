@@ -1,0 +1,1 @@
+<p><?php echo $descr; ?></p> <?php echo $__env->make("events.eventDetails", array("data"=>$data), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

@@ -1,0 +1,2 @@
+<span class="text-success t" title="upvotes"><?php echo $votestats['posVotes']; ?></span> - 
+<span class="text-danger t" title="downvotes"><?php echo $votestats['negVotes']; ?></span>

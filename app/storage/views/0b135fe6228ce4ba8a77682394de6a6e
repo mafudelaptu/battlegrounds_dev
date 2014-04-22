@@ -1,0 +1,64 @@
+<?php $__env->startSection("content"); ?>
+<?php if(!empty($raceData) && count($raceData)>0): ?>
+<div class="box">
+	<div class="box_title">
+		<?php echo $raceData->name; ?>
+		<button type="button" class="btn-link" onclick="$('#raceHelp').slideToggle();">
+			how does this work?
+		</button>
+	</div>
+	<div class="box_content">
+
+		<div id="raceHelp" style="display:none">
+			<div class="row">
+				<div class="col-sm-8">
+					<h3>What is a race and how does this work?</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+					</p>
+				</div>
+				<div class="col-sm-4">
+					<h3>How are the winners determined?</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="text-center">
+			<div class="h3 mt_0 mb_10">Want to join this Race?</div>
+			<button class="btn btn-success btn-large" id="enterCode">Enter Dota2Lounge-Code</button>
+			|
+			<a href="#" target="_blank" class="btn btn-default" id="getCode">Get Dota2Lounge-Code</a>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-4">
+		<div class="box">
+			<div class="box_title">
+				Winnerlist
+			</div>
+			<div class="box_content">
+				<?php echo $__env->make("races.winnerlist", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-8">
+		<div class="box">
+			<div class="box_title">
+				Race Information
+			</div>
+			<div class="box_content">
+				<?php echo $__env->make("races.raceInfo", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+			</div>
+		</div>
+		
+	</div>
+</div>
+<?php else: ?>
+	<div class="alert alert-warning">
+		no active race now.
+	</div>
+<?php endif; ?>
+<?php $__env->stopSection(); ?>

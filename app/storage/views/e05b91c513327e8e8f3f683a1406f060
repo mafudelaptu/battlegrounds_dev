@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>
+		<?php echo $title; ?>
+	</title>
+	<meta name="csrf-token" content="<?= csrf_token() ?>">
+	<?php echo HTML::style("css/bootstrap.css"); ?>
+	<?php echo HTML::style("css/bootstrap-theme.min.css"); ?>
+	<?php echo HTML::style("css/font-awesome.min.css"); ?>
+	<?php echo HTML::style("css/main.css"); ?>
+	<?php echo HTML::style("css/bootstrap_datatable.css"); ?>
+	<?php echo HTML::style("css/jquery.bracket.min.css"); ?>
+	<?php echo HTML::style("css/jquery.fileupload.css"); ?>
+	<?php echo HTML::style("css/6.jquery.countdown.css"); ?>
+	<?php echo HTML::style("css/findMatch/findMatch.css"); ?>
+	<?php echo HTML::style("css/findMatch/queueStats.css"); ?>
+	<?php echo HTML::style("css/findMatch/modal.css"); ?>
+	<?php echo HTML::style("css/match/match.css"); ?>
+	<?php echo HTML::style("css/profile/profile.css"); ?>
+	<?php echo HTML::style("css/news/news.css"); ?>
+	<?php echo HTML::style("css/events/events.css"); ?>
+	<?php echo HTML::style("css/home/home.css"); ?>
+	<?php echo HTML::style("css/home/events.css"); ?>
+	<?php echo HTML::style("css/chat/chat.css"); ?>
+	
+	<?php echo HTML::style("css/fonts.css"); ?>
+	<?php echo HTML::style("css/arena.css"); ?>
+	<?php echo HTML::style("css/sprites.css"); ?>
+
+	<?php echo HTML::script('js/10.jquery-1.10.2.min.js'); ?>
+</head>
+<body>
+	<?php
+
+		include ('../../forum_connector.php');
+		$forumConnector = new IPB_ForumConnector();
+	?>
+	<header>
+		<div class="container">
+			<?php echo $__env->make("navigation.social", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+			<?php echo $__env->make("featured.index", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		</div>
+			<?php $__env->startSection("topnavi"); ?>
+			<?php echo $__env->make("navigation.topnav", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+	</header>
+	<div class="bottom_ad_container">
+		<?php echo $__env->make ("ads.horizontal_ad", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+	</div>
+	<div class="container">
+
+		<?php echo $__env->make("navigation.arena", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		
+		<div class="main_container">
+			<?php echo $__env->yieldSection(); ?>
+			<?php echo $__env->yieldContent("content"); ?>
+		</div>
+		<!-- <div class="push"></div> -->
+	</div>
+	
+	<div class="bottom_ad_container">
+		<?php echo $__env->make ("ads.horizontal_ad", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+	</div>
+
+	<footer>
+		<?php $__env->startSection("footer"); ?>
+		<?php echo $__env->make("footer", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>	
+	</footer>
+	<?php echo $__env->yieldSection(); ?>
+	<?php echo $__env->make('generalModal', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+	
+	<script type="text/javascript">
+	ARENA_PATH = "<?php echo url('/'); ?>";
+	</script>
+	<?php if(Auth::check()): ?>
+		<script type="text/javascript">
+		USERNAME = "<?php echo Auth::user()->name; ?>";
+		USER_ID ="<?php echo Auth::user()->id; ?>";
+		AVATAR = "<?php echo Auth::user()->avatar; ?>";
+		REGION = "<?php echo Auth::user()->region_id; ?>";
+		SOCKET = "<?php echo GlobalSetting::getSocketLink(); ?>";
+		TOKEN = "<?php echo base64_encode(hash_hmac('SHA256', Auth::user()->id.Auth::user()->region_id.Auth::user()->name, '5uatH3Q2TqWnHYvJLGZbP8Fm', true)); ?>";
+		</script>
+	<?php else: ?>
+		<script type="text/javascript">
+		USERNAME = "";
+		USER_ID ="";
+		AVATAR = "";
+		REGION = 0;
+		SOCKET = "";
+		TOKEN = "";
+		</script>
+	<?php endif; ?>
+	<script src="<?php echo GlobalSetting::getSocketLink(); ?>/socket.io/socket.io.js"></script>
+
+	<?php /*  HTML::script('js/jquery-1.10.2.min.map')  */ ?>
+	<?php echo HTML::script('js/11.bootstrap.min.js'); ?>
+	<?php echo HTML::script('js/12.jquery.ui.widget.js'); ?>
+	<?php echo HTML::script('js/14.bootbox.min.js'); ?>
+	<?php echo HTML::script('js/20.jquery.cookie.js'); ?>
+	<?php echo HTML::script('js/20.jquery.validate.min.js'); ?>
+	<?php echo HTML::script('js/30.jquery.countDown.js'); ?>
+	<?php echo HTML::script('js/31.jquery.stopwatch.js'); ?>
+	<?php echo HTML::script('js/32.jquery.timeago.js'); ?>
+	<?php echo HTML::script('js/33.jquery.titleAlert.min.js'); ?>
+	<?php echo HTML::script('js/34.jquery.countdown.min.js'); ?>
+	<?php echo HTML::script('js/35.jquery.blockUI.js'); ?>
+	<?php echo HTML::script('js/50.jquery.iframe-transport.js'); ?>
+	<?php echo HTML::script('js/51.jquery.fileupload.js'); ?>
+	<?php echo HTML::script('js/60.jquery.dataTables.min.js'); ?>
+	<?php echo HTML::script('js/61.dataTable.paging.js'); ?>
+	<?php echo HTML::script('js/80.highcharts-all.js'); ?>
+	<?php echo HTML::script('js/81.jquery.bracket.min.js'); ?>
+	<?php echo HTML::script('js/90.buzz.js'); ?>
+	<script src='https://cdn.firebase.com/v0/firebase.js'></script>
+	<?php echo HTML::script("js/main.js"); ?>
+	<?php echo HTML::script("js/notification/notification.js"); ?>
+	<?php echo HTML::script("js/bootstrap_datatable.js"); ?>
+	<?php echo HTML::script("js/findMatch/findMatch.js"); ?>
+	<?php echo HTML::script("js/findMatch/queue.js"); ?>
+	<?php echo HTML::script("js/findMatch/queueModal.js"); ?>
+	<?php echo HTML::script("js/audio/audio.js"); ?>
+	<?php echo HTML::script("js/match/match.js"); ?>
+	<?php echo HTML::script("js/match/replayUpload.js"); ?>
+	<?php echo HTML::script("js/profile/profile.js"); ?>
+	<?php echo HTML::script("js/profile/graphs.js"); ?>
+	<?php echo HTML::script("js/ladder/ladder.js"); ?>
+	<?php echo HTML::script("js/home/home.js"); ?>
+	<?php echo HTML::script("js/firebase/chat.js"); ?>
+	<?php echo HTML::script("js/event/event.js"); ?>
+	<?php echo HTML::script("js/event/events.js"); ?>
+	<?php echo HTML::script("js/testpage/testpage.js"); ?>
+	<?php echo HTML::script("js/chat/chat.js"); ?>
+	<?php echo HTML::script("js/openMatches/openMatches.js"); ?>
+	<?php echo HTML::script("js/lastMatches/lastMatches.js"); ?>
+
+</body>
+</html>

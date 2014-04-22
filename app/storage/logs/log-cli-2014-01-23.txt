@@ -1,0 +1,64 @@
+[2014-01-23 01:12:56] log.ERROR: exception 'InvalidArgumentException' with message 'Database [] not configured.' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php:184
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(108): Illuminate\Database\DatabaseManager->getConfig(NULL)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection(NULL)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(242): Illuminate\Database\DatabaseManager->connection()
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Illuminate\Database\DatabaseManager->__call('table', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Illuminate\Database\DatabaseManager->table('queues')
+#5 /home/www/dotacinema/arena_dev/app/models/GameQueue.php(222): Illuminate\Support\Facades\Facade::__callStatic('table', Array)
+#6 /home/www/dotacinema/arena_dev/app/models/GameQueue.php(222): Illuminate\Support\Facades\DB::table('queues')
+#7 /home/www/dotacinema/arena_dev/app/controllers/CronjobMatchmakingController.php(11): GameQueue::deleteAFKUsers()
+#8 /home/www/dotacinema/arena_dev/app/commands/MatchmakingCronjob.php(41): CronjobMatchmakingController->doMatchmaking()
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): MatchmakingCronjob->fire()
+#10 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(MatchmakingCronjob), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#16 {main} [] []
+[2014-01-23 01:15:49] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dotacinema_arena.permabans' doesn't exist' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:272
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(272): PDO->prepare('select `banlist...')
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select `banlist...', Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(277): Illuminate\Database\Connection->run('select `banlist...', Array, Object(Closure))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1028): Illuminate\Database\Connection->select('select `banlist...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1018): Illuminate\Database\Query\Builder->runSelect()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1005): Illuminate\Database\Query\Builder->getFresh(Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(441): Illuminate\Database\Query\Builder->get(Array)
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(132): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(378): Illuminate\Database\Eloquent\Builder->get()
+#9 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(51): CronjobDoAllController->permabanActiveBansHandling()
+#10 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#12 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#18 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dotacinema_arena.permabans' doesn't exist (SQL: select `banlists`.`user_id`, COUNT(banlists.user_id) as warnCount from `banlists` left join `permabans` on `permabans`.`user_id` = `banlists`.`user_id` where `banlists`.`display` = ? and `permabans`.`banlistreason_id` is null group by `banlists`.`user_id` having `warnCount` >= ?) (Bindings: array (
+  0 => 1,
+  1 => 6,
+))' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'select `banlist...', Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Connection.php(277): Illuminate\Database\Connection->run('select `banlist...', Array, Object(Closure))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1028): Illuminate\Database\Connection->select('select `banlist...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1018): Illuminate\Database\Query\Builder->runSelect()
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1005): Illuminate\Database\Query\Builder->getFresh(Array)
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(441): Illuminate\Database\Query\Builder->get(Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(132): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#7 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(378): Illuminate\Database\Eloquent\Builder->get()
+#8 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(51): CronjobDoAllController->permabanActiveBansHandling()
+#9 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#11 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#17 {main} [] []

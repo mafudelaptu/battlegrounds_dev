@@ -1,0 +1,1 @@
+<?php if(!$inMatch): ?> <button type="button" class="button btn-block" id="join5vs5SingleButton"> 5vs5 Single-Join </button> <button type="button" class="button btn-block" id="join1vs1Button"> 1vs1 Join </button> <?php else: ?> <?php echo $__env->make("findMatch.inMatchError", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?> <?php endif; ?>

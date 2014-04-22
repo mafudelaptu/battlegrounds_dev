@@ -1,0 +1,123 @@
+[2014-02-23 08:07:23] log.ERROR: NotFoundHttpException Route: http://www.dotacinema.com/arena/forum [] []
+[2014-02-23 08:07:23] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-23 08:31:11] log.ERROR: NotFoundHttpException Route: http://www.dotacinema.com/arena/vods/6665 [] []
+[2014-02-23 08:31:11] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-23 10:48:33] log.ERROR: exception 'Exception' with message 'String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:32
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php(32): SimpleXMLElement->__construct('http://steamcom...', 0, true)
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#2 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#3 /home/www/dotacinema/arena_dev/app/models/Login.php(124): SteamId->__construct('765611980350305...')
+#4 /home/www/dotacinema/arena_dev/app/models/Login.php(71): Login::updateSteamUser('765611980350305...')
+#5 /home/www/dotacinema/arena_dev/app/routes.php(80): Login::insertNewUserAndLogin('765611980350305...')
+#6 [internal function]: {closure}()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main}
+
+Next exception 'SteamCondenserException' with message 'XML could not be parsed: String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:38
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#2 /home/www/dotacinema/arena_dev/app/models/Login.php(124): SteamId->__construct('765611980350305...')
+#3 /home/www/dotacinema/arena_dev/app/models/Login.php(71): Login::updateSteamUser('765611980350305...')
+#4 /home/www/dotacinema/arena_dev/app/routes.php(80): Login::insertNewUserAndLogin('765611980350305...')
+#5 [internal function]: {closure}()
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-02-23 12:21:49] log.ERROR: NotFoundHttpException Route: http://www.dotacinema.com/arena/vods/6674 [] []
+[2014-02-23 12:21:49] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-23 13:26:56] log.ERROR: exception 'Exception' with message 'String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:32
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php(32): SimpleXMLElement->__construct('http://steamcom...', 0, true)
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#2 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#3 /home/www/dotacinema/arena_dev/app/models/Login.php(124): SteamId->__construct('765611980522112...')
+#4 /home/www/dotacinema/arena_dev/app/models/Login.php(71): Login::updateSteamUser('765611980522112...')
+#5 /home/www/dotacinema/arena_dev/app/routes.php(80): Login::insertNewUserAndLogin('765611980522112...')
+#6 [internal function]: {closure}()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main}
+
+Next exception 'SteamCondenserException' with message 'XML could not be parsed: String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:38
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#2 /home/www/dotacinema/arena_dev/app/models/Login.php(124): SteamId->__construct('765611980522112...')
+#3 /home/www/dotacinema/arena_dev/app/models/Login.php(71): Login::updateSteamUser('765611980522112...')
+#4 /home/www/dotacinema/arena_dev/app/routes.php(80): Login::insertNewUserAndLogin('765611980522112...')
+#5 [internal function]: {closure}()
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-02-23 15:51:24] log.ERROR: exception 'Exception' with message 'String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:32
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php(32): SimpleXMLElement->__construct('http://steamcom...', 0, true)
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#2 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#3 /home/www/dotacinema/arena_dev/app/models/Login.php(124): SteamId->__construct('765611980522112...')
+#4 /home/www/dotacinema/arena_dev/app/models/Login.php(71): Login::updateSteamUser('765611980522112...')
+#5 /home/www/dotacinema/arena_dev/app/routes.php(80): Login::insertNewUserAndLogin('765611980522112...')
+#6 [internal function]: {closure}()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main}
+
+Next exception 'SteamCondenserException' with message 'XML could not be parsed: String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:38
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#2 /home/www/dotacinema/arena_dev/app/models/Login.php(124): SteamId->__construct('765611980522112...')
+#3 /home/www/dotacinema/arena_dev/app/models/Login.php(71): Login::updateSteamUser('765611980522112...')
+#4 /home/www/dotacinema/arena_dev/app/routes.php(80): Login::insertNewUserAndLogin('765611980522112...')
+#5 [internal function]: {closure}()
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []

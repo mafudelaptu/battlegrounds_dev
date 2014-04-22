@@ -1,0 +1,29 @@
+<?php $__env->startSection("content"); ?>
+<!-- <div class="page-header">
+	<h1><?php echo $heading; ?></h1>
+</div> -->
+	<div class="row">
+	
+	<div class="col-sm-8">
+		<?php /*  Upcoming Event  */ ?>
+		<?php echo $__env->make("events.nextEvent", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		
+		<?php /*  Last Events  */ ?>
+		<?php echo $__env->make("events.lastEvents", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+	</div>
+	<div class="col-sm-4">
+		
+		<?php /*  Calendar  */ ?>
+		<?php echo $__env->make("events.info.calendar", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		
+		<?php /*  Stats */ ?>
+		<?php echo $__env->make("events.info.stats", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		
+		<?php /*  Last Event Winners  */ ?>
+		<?php echo $__env->make("events.info.lastEventWinners", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		
+		<?php /*  Most Event Wins */ ?>
+		<?php echo $__env->make("events.info.mostEventWins", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+	</div>
+</div>
+<?php $__env->stopSection(); ?>

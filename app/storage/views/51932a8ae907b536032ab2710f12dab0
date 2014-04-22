@@ -1,0 +1,150 @@
+<?php $__env->startSection("content"); ?>
+<div class="page-header">
+	<h1>
+		Event #<?php echo $event_id; ?>: <?php echo $eventData->name; ?> <small>Sub-EventID: <?php echo $created_event_id; ?></small>
+	</h1>
+</div>
+
+<div class="row">
+	<div class="col-sm-4">
+		<div class="box">
+			<!-- Default panel contents -->
+			<div class="box_title">Eventdetails</div>
+			<div class="box_content">
+				<?php echo $eventData->description; ?>
+			</div>
+			<!-- Table -->
+			<table class="table">
+				<tr>
+					<td>Started at:</td>
+					<td><?php echo $eventData->start_at; ?></td>
+				</tr>
+				<tr>
+					<td>Tournamenttype:</td>
+					<td><span class="badge badge-warning t" title="<?php echo $eventData->tournamenttype; ?>"><?php echo $eventData->tt_shortcut; ?></span></td>
+				</tr>
+				<tr>
+					<td>Matchmode::</td>
+					<td><span class="badge badge-info t" title="<?php echo $eventData->matchmode; ?>"><?php echo $eventData->mm_shortcut; ?></span></td>
+				</tr>
+				<tr>
+					<td>Region:</td>
+					<td><span class="badge badge-danger t" title="<?php echo $eventData->region; ?>"><?php echo $eventData->r_shortcut; ?></span></td>
+				</tr>
+				<tr>
+					<td>Total Players:</td>
+					<td><span class="label label-default"><?php echo $eventData->min_submissions; ?></span></td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+	<?php if(!empty($playerStatus) && count($playerStatus) > 0): ?> 
+	<div class="col-sm-8">
+		<?php echo $__env->make("event.playerStatus", array("data"=>$playerStatus), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+	</div>
+	<?php else: ?>
+	<div class="col-sm-4">
+		<?php if(!empty($playerStatus) && count($playerStatus) > 0): ?> 
+		<h3>Your Team</h3>
+		<?php echo $__env->make("event.teamData", array("data"=>$teamOfPlayer), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		<?php else: ?>
+		<?php if($createdEventData->canceled == 1): ?> 
+		<div class="alert alert-danger">Event got canceled!</div>
+		<?php elseif($createdEventData->team_won_id == 0): ?>
+		<div class="alert alert-info">Event in progress</div>
+		<?php else: ?>
+		<h3>Winner</h3>
+		<?php echo $__env->make("event.teamData", array("data"=>$winnerTeam), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		<?php endif; ?>
+		<?php endif; ?>
+	</div>
+	<div class="col-sm-4">
+		<script>
+		$(function() {
+			if (document.URL.indexOf("/event/") >= 0) {
+
+				var json = '<?php echo $bracketJson;?>';
+				var obj = $.parseJSON( json );
+				l("jsonBracket");
+				l(obj);
+				$("#bracket").bracket({
+					skipConsolationRound: true,
+					init: obj
+				});
+			}
+		});
+		</script>
+		<h3>Bracket</h3>
+		<div id="bracket">
+			
+		</div>
+		<div>
+			<h3>Prize for Winners</h3>
+
+			<?php echo $__env->make("icons.prizetype", array("prizetype_id"=>$eventData->prizetype_id, "prizecount"=>$eventData->prizecount, "prize"=>$eventData->prize), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+			<div>
+				<?php echo $eventData->prizecount; ?>x <strong><?php echo $eventData->prize; ?></strong>
+			</div>
+		</div>
+	</div>
+	<?php endif; ?>
+</div>
+<?php if($createdEventData->ended_at == "0000-00-00 00:00:00" || (!empty($playerStatus) && count($playerStatus) > 0) ): ?> 
+<div class="row">
+	<div class="col-sm-4">
+		<script>
+		$(function() {
+			if (document.URL.indexOf("/event/") >= 0) {
+
+				var json = '<?php echo $bracketJson;?>';
+				var obj = $.parseJSON( json );
+				l(obj);
+				$("#bracket").bracket({
+					skipConsolationRound: true,
+					init: obj
+				});
+			}
+		});
+		</script>
+		<h3>Bracket</h3>
+		<div id="bracket">
+			
+		</div>
+	</div>
+	<div class="col-sm-4">
+		<?php if(!empty($playerStatus) && count($playerStatus) > 0): ?> 
+		<h3>Your Team</h3>
+		<?php echo $__env->make("event.teamData", array("data"=>$teamOfPlayer), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		<?php else: ?>
+		<?php if($createdEventData->canceled == 1): ?> 
+		<div class="alert alert-danger">Event got canceled!</div>
+		<?php elseif($createdEventData->team_won_id == 0): ?>
+		<div class="alert alert-info">Event in progress</div>
+		<?php else: ?>
+		<h3>Winner</h3>
+		<?php echo $__env->make("event.teamData", array("data"=>$winnerTeam), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		<?php endif; ?>
+		<?php endif; ?>
+	</div>
+	<div class="col-sm-4">
+		<div>
+			<h3>Prize for Winners</h3>
+
+			<?php echo $__env->make("icons.prizetype", array("prizetype_id"=>$eventData->prizetype_id, "prizecount"=>$eventData->prizecount, "prize"=>$eventData->prize), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+			<div>
+				<?php echo $eventData->prizecount; ?>x <strong><?php echo $eventData->prize; ?></strong>
+			</div>
+		</div>
+	</div>
+</div>
+<div>
+	<?php if(!empty($playerStatus) && count($playerStatus) > 0 && $createdEventData->ended_at == "0000-00-00 00:00:00"): ?>
+			<?php $disableChat = null; ?>
+		<?php else: ?>
+			<?php $disableChat = true; ?>
+		<?php endif; ?>
+			<?php echo $__env->make("prototypes/chat/chatNew", array("chatname"=>"eventChat".$created_event_id, "disableChat"=>$disableChat), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+	</div>
+<?php endif; ?>
+<?php $__env->stopSection(); ?>

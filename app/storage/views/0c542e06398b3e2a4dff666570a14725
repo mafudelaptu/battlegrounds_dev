@@ -1,0 +1,60 @@
+<div class="box">
+	
+<div class="customH2 box_title">
+	Warns<span>History</span>
+</div>
+<div class="box_content">
+
+<?php if(!empty($permaban)): ?>
+	<div class="alert alert-danger text-center">
+		<h3>You got permabanned by <?php echo $__env->make("prototypes.username", array("user_id"=>$permaban->bannedBy, "username"=>$permaban->name, "avatar"=>$permaban->avatar), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>!</h3>
+		<h4>reason</h4>
+		<p><?php echo $permaban->reason; ?></p>
+	</div>
+<?php endif; ?>
+
+<?php if(!empty($data)): ?>
+<table class="table table-striped" id="warnHistoryTable">
+<thead>
+<tr>
+	<th>Warned At</th>
+	<th>In Prison Until</th>
+	<th>Warn Expires At</th>
+	<th>Warned By</th>
+	<th>Reason</th>
+	<th>Active</th>
+</tr>
+</thead>
+<tbody>
+	<?php foreach($data as $k => $v): ?>
+		<?php if($v->display == 1): ?>
+		<?php 
+			$active = "active";
+			$activeClass = "success";
+		 ?>
+		 <?php else: ?>
+		 	<?php 
+			$active = "";
+			$activeClass = "muted";
+		 ?>
+		 <?php endif; ?>
+	<tr class="<?php echo $activeClass; ?>">
+		<td><?php echo $v->created_at; ?></td>
+		<td><?php echo $v->banned_until; ?></td>
+		<td><?php echo $v->expires; ?></td>
+		<td><?php echo $v->reason; ?>
+			<?php if($v->bannedBy > 0): ?>
+			 - <a href="<?php echo URL::to('profile/$v->bannedBy'); ?>" target="_blank"><img src="<?php echo $v->bannedByAvatar; ?>" alt="<?php echo $v->bannedByName; ?>'s Avatar"><?php echo $v->bannedByName; ?></a>
+			<?php endif; ?>
+		</td>
+		<td><?php echo $v->banReasonText; ?></td>
+		<td><?php echo $active; ?></td>
+	</tr>
+	<?php endforeach; ?>
+</tbody>
+</table>
+<?php else: ?>
+<div class="alert alert-warning">no warns found!</div>
+<?php endif; ?>
+</div>
+</div>

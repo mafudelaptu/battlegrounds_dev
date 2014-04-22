@@ -1,0 +1,82 @@
+<?php 
+if(!isset($disableChat)){
+	$disableChat = false;
+}
+if(!isset($height)){
+	$height = "200px";
+}
+
+$heightUsers = (int) ($height -29)."px";
+
+?>
+<?php if(!isset($noHeader)): ?>
+<div class="page-header">
+	<h2><i class="fa fa-comment"></i>&nbsp;Chat</h2>
+</div>
+<?php endif; ?>
+
+<div id="<?php echo $chatname; ?>">
+	<div class="row" style="height: <?php echo $height; ?>;">
+		<?php if($disableChat): ?>
+		<div class="col-sm-12">
+			<div class="conversation" style="max-height: <?php echo $height; ?>; height: <?php echo $height; ?>;">
+
+			</div>
+		</div>
+
+		<?php else: ?>
+		<div class="col-sm-9">
+			<div class="conversation" style="max-height: <?php echo $height; ?>; height: <?php echo $height; ?>;">
+				<div align="center" class="showPreviousMessagesBox">
+					<button class="btn btn-link showPreviousMessages" data-chat="<?php echo $chatname; ?>">show previous messages</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-3" style="max-height: <?php echo $height; ?>; height: <?php echo $height; ?>;">
+			<div class="count_chatusers text-center">
+				Users in Chat <span class="count">0</span><i class="fa fa-refresh t btn btn-link userlistRefreshButton" title="refresh userlist"></i> 
+			</div>
+			<div class="chatusers" style="max-height: <?php echo $heightUsers; ?>; height: <?php echo $heightUsers; ?>;">
+
+			</div>
+		</div>
+		<?php endif; ?>
+
+	</div>
+
+	<?php if(!$disableChat): ?>
+	<div class="row pt_10">
+		<div class="col-sm-9">
+			<div class="input-group chat-input">
+				<span class="input-group-addon allChat">
+					All Chat:
+				</span>
+				<input id="send-data-<?php echo $chatname; ?>" maxlength='100' placeholder='Message' type="text" class="chat-message-input">
+			</div>
+			<form class="form-inline showMenu" role="form">
+				<div class="form-group">
+					show:&nbsp;
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" name="<?php echo $chatname; ?>ShowMenu" id="<?php echo $chatname; ?>ShowMenuFilterAll" value="all" checked> All
+					</label>
+				</div>&nbsp;
+				<div class="radio">
+					<label>
+						<input type="radio" name="<?php echo $chatname; ?>ShowMenu"  id="<?php echo $chatname; ?>ShowMenuFilterAllChat" value="allchat"> just All-Chat
+					</label>
+				</div>&nbsp;
+				<div class="radio">
+					<label>
+						<input type="radio" name="<?php echo $chatname; ?>ShowMenu"  id="<?php echo $chatname; ?>ShowMenuFilterWhisperChat" value="whisper"> just Whisper-Chat
+					</label>
+				</div>
+			</form>
+		</div>
+		<div class="col-sm-3 lh_58">
+			<button class="button btn-block" id="send-<?php echo $chatname; ?>" onclick="sendMessage('<?php echo $chatname; ?>')">Send</button>
+		</div>
+	</div>
+	<?php endif; ?>
+</div>

@@ -1,0 +1,69 @@
+<?php $__env->startSection("content"); ?>
+<div class="box">
+<div class="page-header box_title">
+	<h1><?php echo $heading; ?></h1>
+</div>
+<div class="box_content">
+<?php if (!empty($data) && !empty($submitCountsArray)): ?>
+<table id="openMatchesTable"
+	class="table table-striped openMatchesTable" cellpadding="0" cellspacing="0"
+	border="0">
+	<thead>
+		<tr align="center">
+			<th></th>
+			<th></th>
+			<th>Date</th>
+			<th>MatchID</th>
+			<th>Mode</th>
+			<th>Submissions</th>
+		</tr>
+	</thead>
+	<tbody>
+		<?php foreach($data as $k => $v): ?>
+		<?php 
+			
+			if($v->submitted == "1"){
+				$submittedClass = "";
+				$submittedIcon = "";
+				$submittedTitle = "";
+				$tableClass = "";
+			}
+			else{
+				$submittedClass = "text-danger t";
+				$submittedIcon = View::make('icons.notSubmitted')->render();
+				$submittedTitle = "you have to submit a matchresult!";
+				$tableClass = "danger";
+			}
+			$check = "";
+			if($v->check == "1"){
+				$check = View::make("icons.checkMatch")->render();
+				$tableClass = "danger";
+			}
+			$matchHref = URL::to("match/".$v->id);
+		 ?>
+
+		<tr class="<?php echo $tableClass; ?>">
+			<td>
+				<span class="<?php echo $submittedClass; ?>" title="<?php echo $submittedTitle; ?>"><?php echo $submittedIcon; ?></span>
+				<?php echo $check; ?>
+			</td>
+			<td><?php echo $__env->make("icons.matchtype", array("matchtype_id"=>$v->matchtype_id, "matchtype"=>$v->matchtype), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?></td>
+			<td><span class="timeago" title="<?php echo $v->created_at; ?>" datasort="<?php echo $v->created_at; ?>"><?php echo $v->created_at; ?></span></td>
+			<td><a href="<?php echo $matchHref; ?>"><?php echo $v->id; ?></a></td>
+			<td><span class="t badge badge-info" title="<?php echo $v->matchmode; ?>"><?php echo $v->mm_shortcut; ?></span></td>
+			<td><span class="label label-default"><?php echo $submitCountsArray[$v->id]; ?></span>
+			</td>
+		</tr>
+
+		<?php endforeach; ?>
+	</tbody>
+</table>
+<br> <!-- Scrollbalken workaround -->
+<?php else: ?>
+<div class="alert alert-warning"> 
+		no open matches
+</div>
+<?php endif; ?>
+</div>
+</div>
+<?php $__env->stopSection(); ?>

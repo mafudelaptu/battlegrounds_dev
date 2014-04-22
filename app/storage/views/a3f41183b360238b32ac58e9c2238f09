@@ -1,0 +1,81 @@
+<div class="box">
+	<div class="box_title">
+			<div class="inline-block strong tt_none">
+				
+				<?php echo $__env->make("prototypes.username", array("credits" => 0,"username" => $userData->name,"user_id" => $userData->user_id, "truncateValue" => 0, "avatar" => $userData->avatar, "link"=>false), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+				<?php if(GlobalSetting::isSteamGame() && $visitor ==false): ?>
+					<i class="fa fa-refresh t pointer" title="force syncing data (username, avatar) with Steam" id="syncWithSteam"></i>
+				<?php endif; ?>
+
+			</div>
+			<div class="inline-block ml_20">
+				<small>
+					<?php foreach($matchtypes as $key => $type): ?>
+					<?php if($key === 0): ?>
+					<?php $active = ""; ?>
+					<?php else: ?>
+					<?php $active = "hide"; ?>
+					<?php endif; ?>
+
+					<?php if(  $stats[$type->id]['Ranking'] == 0): ?>
+					<?php $stats[$type->id]['Ranking'] = "unranked";?>
+					<?php else: ?>
+					<?php $stats[$type->id]['Ranking'] .= ".";?>
+					<?php endif; ?>
+					<div id="userstats_<?php echo $type->id; ?>" class="profile_userstats <?php echo $active; ?>">
+						<span>
+							Points:&nbsp;<strong class="text-success">
+							<?php echo $points[$type->id]; ?></strong>
+						</span>
+						<span>
+							Ranking:&nbsp;
+							<strong class="text-info"><?php echo $stats[$type->id]['Ranking']; ?></strong>
+						</span>
+					</div>
+					<?php endforeach; ?>
+				</small>
+			</div>
+			<div class="inline-block pull-right">
+				<?php foreach($matchtypes as $key => $type): ?>
+				<?php if($key === 0): ?>
+				<?php $active = "alert-info"; ?>
+				<?php else: ?>
+				<?php $active = "btn-link"; ?>
+				<?php endif; ?>
+				<span class="<?php echo $active; ?> switchMatchtype p_8 mt_n7 mb_n7 tt_none inline-block" data-id="<?php echo $type->id; ?>"><?php echo $type->name; ?></span>&nbsp;
+				<?php endforeach; ?>
+			</div>
+			<div class="clearer"></div>
+	
+	</div>
+	<div class="box_content p_5">
+		<div class="row">
+			<div class="col-sm-5">
+				<?php echo $__env->make("profile.userInfo.index", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+				<?php foreach($matchtypes as $key => $type): ?>
+				<?php if($key === 0): ?>
+				<?php $active = ""; ?>
+				<?php else: ?>
+				<?php $active = "hide"; ?>
+				<?php endif; ?>
+				<div class="<?php echo $active; ?> mt_10 lvlup_user" id="lvlup_user_<?php echo $type->id; ?>">
+					<?php echo $__env->make("profile.userInfo.lvlUpInfo", array("data"=>$nextSkillbracket[$type->id]), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+				</div>
+				<?php endforeach; ?>
+			</div>
+			<div class="col-sm-3">
+				<?php echo $__env->make("profile.userStats.heroes", array("data"=>$heroesStatsData), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+			</div>
+			<div class="col-sm-4">
+				<?php echo $__env->make("profile.userStats.matchmodes", array("data"=>$matchModesStatsData), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+				<?php echo $__env->make("profile.awards.index", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+			</div>
+		</div>
+		
+	</div>
+</div>
+
+
+

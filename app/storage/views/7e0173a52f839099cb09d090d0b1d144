@@ -1,0 +1,12 @@
+<?php $__env->startSection('content'); ?>
+<h1><?php echo $heading; ?></h1>
+
+<?php echo $__env->make("admin.bans.ban", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+<?php /*  <?php echo $__env->make("admin.bans.chatban", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>  */ ?>
+
+<?php echo $__env->make("admin.bans.permaban", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+<?php echo $__env->make("admin.bans.getBans", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+<?php $__env->stopSection(); ?>

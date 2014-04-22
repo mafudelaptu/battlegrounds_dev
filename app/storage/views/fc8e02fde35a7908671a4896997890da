@@ -1,0 +1,56 @@
+<?php 
+	$textClass = "";
+	$iconClass = "";
+	$titleText = "";
+	$titleName = "";
+	$border = GlobalSetting::getCreditBorders();
+	if(empty($truncateValue)){
+		$truncateValue = 0;
+	}
+	if(!isset($credits)){
+		$credits = 0;
+	}
+	if(!isset($link)){
+		$link = true;
+	}
+	if(!isset($avatarWidth)){
+		$avatarWidth = "22";
+	}
+	
+ ?>
+	
+<?php if ($credits >= $border['bronze'] && $credits < $border['silver']): ?>
+	<?php  $textClass = "text-bronze"; ?>
+<?php elseif ($credits >= $border['silver'] && $credits < $border['gold']): ?>
+	<?php $textClass = "text-silver";  ?>
+<?php elseif ($credits >= $border['gold']): ?>
+	<?php $textClass = "text-gold";  ?>
+<?php endif; ?>
+
+<?php if( strlen($username) >= $truncateValue && $truncateValue != 0): ?>
+	<?php $titleName = $username; ?>
+<?php endif; ?>
+
+<span class="t <?php echo $textClass; ?>" title="<?php echo $titleName; ?>">
+
+	<?php /*  */$titleText = "earned Creditpoints: $credits"; /* */ ?>
+	<?php if($link): ?>
+	<a href="<?php echo URL::to('profile/'.$user_id);; ?>" target="_blank">
+	<?php endif; ?>
+		<?php if($avatar != ""): ?>
+			<img src="<?php echo $avatar; ?>" alt="Avatar" width="<?php echo $avatarWidth; ?>">&nbsp;
+		<?php endif; ?>
+			<?php if($truncateValue > 0): ?>
+			<?php echo Str::limit($username, $truncateValue); ?>
+		<?php else: ?>
+			<?php echo $username; ?>
+		<?php endif; ?>
+	<?php if($link): ?>
+	</a>
+	<?php endif; ?>
+	<?php if( $credits >= $border['bronze']): ?>
+	<span class="t" title="<?php echo $titleText; ?>">
+		<?php echo $__env->make("icons.credit", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+	</span>
+	<?php endif; ?>
+</span>

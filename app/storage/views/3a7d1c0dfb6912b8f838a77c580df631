@@ -1,0 +1,45 @@
+
+<?php if(!empty($data) && count($data)>0): ?>
+<?php 
+
+if(!isset($data['whisper'])){
+	$data['whisper'] = false;
+}
+
+if($data['whisper'] == "true"){
+	$highlight = "whisperMessage";
+}
+else{
+	$highlight = "allChatMessage";
+}
+
+?>
+<div class="chatMessage <?php echo $highlight; ?>">
+	<div class="pull-left">
+		<?php if($data['user_id'] == 0): ?>
+		<?php echo e($data['username']); ?>
+		<?php else: ?>
+		<?php if($data['whisper'] == "true" && $data['user_id'] != Auth::user()->id): ?>
+			<i class="fa fa-comment t pointer inChatWhisper<?php echo e($data['user_id']); ?>" title="send response" data-name="<?php echo e($data['username']); ?>" data-avatar="<?php echo e($data['avatar']); ?>" data-id="<?php echo e($data['user_id']); ?>"></i>&nbsp;
+		<?php endif; ?>
+		<?php echo $__env->make("prototypes.username", array("username"=>htmlentities($data['username']), "avatar"=>htmlentities($data['avatar']), "user_id"=>htmlentities($data['user_id']), "link" => true, "avatarWidth"=>"16", "truncateValue"=>15), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		<?php endif; ?>
+			<?php if($data['whisper'] == "false"): ?>
+			:
+			<?php endif; ?>
+			&nbsp;
+	</div>
+	<small class="timeago chatMessageTime pull-right" title="<?php echo e($data['time']); ?>"><?php echo $data['time']; ?></small>
+	<?php if($data['user_id'] == 0): ?>
+	### <?php echo e($data['msg']); ?> ###
+	<?php else: ?>
+	<?php if($data['whisper'] == "true"): ?>
+	<i class="fa fa-caret-right"></i> 
+	<?php echo $__env->make("prototypes.username", array("username"=>htmlentities($data['whisper_username']), "avatar"=>htmlentities($data['whisper_avatar']), "user_id"=>htmlentities($data['whisper_user_id']), "link" => true, "avatarWidth"=>"16"), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>:&nbsp;
+	<?php endif; ?>
+	<?php echo e($data['msg']); ?>
+	<?php endif; ?>
+</div>
+
+<div class="clearer"></div>
+<?php endif; ?>

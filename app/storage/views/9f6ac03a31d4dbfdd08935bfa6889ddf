@@ -1,0 +1,33 @@
+<?php if(!empty($mostEventWins) && count($mostEventWins) > 0): ?>
+<div class="box">
+	<div class="box_title">
+	Most Event Wins
+	</div>
+	<div class="box_content">
+		
+<table class="table table-striped">
+		<thead>
+			<tr align="center">
+				<th>Name</th>
+				<th>Wins</th>
+			</tr>
+		</thead>
+		
+		<tbody>
+	<!-- TBODY zusammenbauen -->
+		  <?php foreach($mostEventWins as $k => $v): ?>
+		  	<tr>
+				<td>
+					<?php echo $__env->make("prototypes.username", array("username"=>$v->name, "credits"=>$v->credits, "user_id"=>$v->user_id, "avatar"=>$v->avatar), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+				</td>
+				<td>
+					<?php echo $v->Wins; ?>
+				</td>
+			</tr>
+		  <?php endforeach; ?>
+		</tbody>
+</table>
+	</div>
+
+</div>
+<?php endif; ?>

@@ -1,0 +1,43 @@
+<?php if($matchState == "closed" || $matchState == "canceled"): ?>
+	
+<?php if(strpos($pointsChange, '-') === 0): ?>
+		<?php 
+			$textClass = "danger";
+			$textAddition = "";
+		?>
+	<?php else: ?>
+
+		<?php if($pointsChange != "0" && $pointsChange != 0): ?>
+		<?php 
+			$textClass = "success";
+			$textAddition = "+";
+		?>
+		<?php else: ?>
+<?php 
+			$textClass = "";
+			$textAddition = "";
+			$pointsChange = "";
+		?>
+		<?php endif; ?>
+		
+	<?php endif; ?>
+	<?php 
+		$tipsy_text = $textAddition.$pointsChange; 
+	?>
+	<div class="label label-matchpage t">
+	<?php echo $points; ?>
+	<span class="text-<?php echo $textClass; ?>">
+<?php echo $tipsy_text; ?>
+</span>
+</div>&nbsp;
+
+<?php else: ?>
+	<?php 
+		$tipsy_text = "+".$winPoints."/"."-".$losePoints;
+	 ?>
+	 <div class="label label-matchpage t" title="<?php echo $tipsy_text; ?>">
+	<?php echo $points; ?>
+</div>
+<?php endif; ?>
+
+

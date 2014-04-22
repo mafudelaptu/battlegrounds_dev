@@ -1,0 +1,888 @@
+[2014-02-11 00:20:07] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/staff [] []
+[2014-02-11 00:20:07] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 00:34:26] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/termsofservice [] []
+[2014-02-11 00:34:26] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 01:19:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 01:19:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 01:19:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 01:28:20] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/disclaimer [] []
+[2014-02-11 01:28:20] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 01:54:14] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/termsofservice [] []
+[2014-02-11 01:54:14] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 20:37:25] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/css/match/img/match/replay/bgPlayers.png [] []
+[2014-02-11 20:37:25] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 21:01:43] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/forum/index.php [] []
+[2014-02-11 21:01:43] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 21:18:05] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 21:18:05] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 21:18:05] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 21:18:05] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 21:19:16] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 21:19:16] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 21:19:16] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 21:19:16] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 21:26:40] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 21:26:41] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 21:26:41] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 21:26:41] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 21:47:52] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 21:47:52] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 21:47:52] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 21:47:53] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 21:47:53] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 21:48:21] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 21:48:21] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 21:48:21] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 21:48:21] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 21:56:50] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:13:06] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:13:06] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:13:06] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:13:06] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:13:06] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:14:42] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:14:42] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:14:42] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:14:42] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:14:43] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:14:56] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:14:56] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:14:56] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:14:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:14:58] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:14:58] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:14:59] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:15:00] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:15:00] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:15:00] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:15:00] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:15:18] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:15:18] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:15:18] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:15:18] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:15:18] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:15:18] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:15:18] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:15:32] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:15:32] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:22:05] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:22:05] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:35:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:36:03] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:36:03] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:36:03] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:36:03] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:36:03] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:36:03] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:36:09] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/news [] []
+[2014-02-11 22:36:09] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:40:16] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-02-11 22:41:30] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:41:30] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:41:30] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:41:30] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:41:30] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:41:30] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:43:52] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:43:52] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:43:52] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:43:54] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:43:54] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:43:54] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:43:55] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:43:55] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:43:55] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:43:57] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-02-11 22:44:02] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-02-11 22:44:23] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:44:23] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:44:24] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:44:24] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:44:25] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:44:25] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:44:25] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:44:25] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 22:51:16] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-02-11 23:30:26] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 23:30:26] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 23:30:26] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 23:30:26] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 23:48:55] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 23:48:55] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 23:48:55] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-11 23:48:57] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-11 23:48:57] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-11 23:48:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 23:48:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 23:48:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-11 23:48:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []

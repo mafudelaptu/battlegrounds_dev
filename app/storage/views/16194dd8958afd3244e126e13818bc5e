@@ -1,0 +1,55 @@
+<?php if(!empty($allEventTypes) && count($allEventTypes)>0): ?>
+<div class="box">
+	<div class="box_title">
+	Calendar
+	</div>
+	<div class="box_content">
+		
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>Day</th>
+			<th>Prize</th>
+			<th><span class="t" title="Requirements">Req</span</th>
+			<th>Name</th>
+			<th>Details</th>
+		</tr>
+	</thead>
+	<tbody>
+		<?php foreach($allEventTypes as $k => $v): ?>
+		<tr>
+			<td><span class="t" title="every <?php echo $v->start_day; ?>"><?php echo $v->start_day; ?><br><?php echo $v->start_time; ?> CET</span></td>
+			<td>
+				<?php echo $__env->make("icons.prizetype", array("prizetype_id"=>$v->prizetype_id, "prizecount"=>$v->prizecount, "prize"=>$v->prize, "width"=>50), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+			</td>
+			<td>
+				<?php if($v->pointReq > 0 || $v->skillbracketReq != ""): ?>
+
+					<?php if($v->pointReq > 0): ?>
+					<div class="pull-left">>= <span class="label t" title="minimum Points"><?php echo $v->pointReq; ?></span></div>
+					<?php endif; ?>
+
+					<?php if($v->skillbracketReq != ""): ?>
+						<div class="pull-left t" title="minimum Skillbracket: <?php echo $v->skillbracketReq; ?>">
+							<?php echo $__env->make("icons/skillbracket", array("skillbracket_id"=>$v->skillbracketReq, "skillbracket"=>$v->skillbracket), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+						</div>
+					<?php endif; ?>
+				<?php else: ?>
+				no Req
+				<?php endif; ?>
+			</td>
+			<td><?php echo $v->name; ?></td>
+			<td>
+				<span class="t badge badge-info" data-original-title="<?php echo $v->matchmode; ?>"><?php echo $v->mm_shortcut; ?></span>
+				<span class="t badge badge-danger" data-original-title="<?php echo $v->region; ?>"><?php echo $v->r_shortcut; ?></span>
+				<span class="t badge badge-warning"
+				data-original-title="<?php echo $v->tournamenttype; ?>"><?php echo $v->tt_shortcut; ?></span> <span
+				class="t label label-default" title="Minimum Players"><?php echo $v->min_submissions; ?></span>
+			</td>
+		</tr>
+		<?php endforeach; ?>
+	</tbody>
+</table>
+	</div>
+</div>
+<?php endif; ?>

@@ -1,0 +1,38 @@
+<?php if(!empty($winnerlist) && count($winnerlist)>0): ?>
+	<table class="table table-striped">
+		<thead>
+			<tr align="center">
+				<th>#</th>
+				<th>Player</th>
+				<th class="t" title="earned Points">EP</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<?php foreach($winnerlist as $k=>$v): ?>
+			<?php $highlight = ""; ?>
+			<?php if(Auth::user()->id == $v->user_id): ?>
+				<?php $highlight = "info" ?>
+			<?php endif; ?>
+				<tr class="<?php echo $highlight; ?>">
+					<td><strong><?php echo ($k+1); ?>.</strong></td>
+					<td><?php echo $__env->make("prototypes.username", array("username"=>$v->name, "avatar"=>$v->avatar, "user_id"=>$v->user_id), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?></td>
+					<td><?php echo $v->points; ?></td>
+				</tr>
+			<?php endforeach; ?>
+		</tbody>
+	</table>
+	<?php if($userPosition === false): ?>
+		<p class="alert alert-info" align="center">
+			You have to play a match to participate
+		</p>
+	<?php else: ?>
+		<?php if($userPosition > count($winnerlist)): ?>
+		<p class="alert alert-info" align="center">
+			Your current placement is: <strong><?php echo $userPosition; ?>. </strong>
+		</p>
+		<?php endif; ?>
+	<?php endif; ?>
+<?php else: ?>
+<div class="alert alert-warning">No active players yet.</div>
+<?php endif; ?>

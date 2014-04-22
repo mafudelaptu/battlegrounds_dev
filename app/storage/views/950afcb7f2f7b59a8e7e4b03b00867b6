@@ -1,0 +1,37 @@
+<?php $__env->startSection('content'); ?>
+<div class="box">
+	<div class="box_title">
+<?php echo $heading; ?>
+</div>
+<div class="box_content">
+<div class="alert alert-warning">
+	<strong>Note:</strong> Only players, who reached the Bronze-League will be recorded in the Ladder. Players that once reached Bronze-League, will stay inside it	
+</div>
+
+<?php echo $__env->make("ladder.ladder_navi", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+<hr />
+
+
+<table id="ladderTable"
+	class="table table-striped" cellpadding="0" cellspacing="0"
+	border="0">
+	<thead>
+		<tr align="center">
+			<th>#</th>
+			<th></th>
+			<th>D2L-Points</th>
+			<th width="400">Player</th>
+			<th>Points earned</th>
+			<th>Wins</th>
+			<th>Losses</th>
+			<th>Win Rate</th>
+			<th>Leaves</th>
+		</tr>
+	</thead>
+	<tbody>
+	</tbody>
+</table>
+</div>
+</div>
+<?php $__env->stopSection(); ?>

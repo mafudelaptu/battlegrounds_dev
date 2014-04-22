@@ -1,0 +1,1 @@
+<div class="box"> <div class="customH2 box_title">Awards <span>(0)</span></div> <div class="box_content"> <div class="well well-small"> coming soon <?php /* {* {if $data|is_array && $data|count > 0} {foreach key=k item=v from=$data name=data_array} <img src="$v.Src" alt="$v.AwardName" class="pull-left" hspace="10" /> {/foreach} {/if} *} */ ?> </div> </div> </div>

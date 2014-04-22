@@ -1,0 +1,75 @@
+
+<div class="row">
+	<div class="col-sm-3">
+		<?php foreach($matchtypes as $key => $type): ?>
+		<?php if($key === 0): ?>
+		<?php $active = ""; ?>
+		<?php else: ?>
+		<?php $active = "hide"; ?>
+		<?php endif; ?>
+		<div class="<?php echo $active; ?>" id="<?php echo $type->id; ?>">
+			<?php echo $__env->make("prototypes.skillbracketImage", array("skillbracket_id"=>$skillbracket[$type->id]['skillbrackettype_id'], "skillbracket"=>$skillbracket[$type->id]['skillbracket']), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		</div>
+		<?php endforeach; ?>
+	</div>
+	<div class="col-sm-9">
+		<div class="h4">
+			<div class="pull-left">
+				Credits:
+				<?php echo $__env->make("prototypes.creditValue", array("creditValue"=> $credits), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+			</div>
+			<div class="pull-right tt_uc">
+				<small>Warns: <?php echo $activeBansCount; ?><span class="t muted" title="total warns">(<?php echo $allBansCount; ?>)</span></small>
+			</div>
+			<div class="clearer"></div>
+		</div>
+		<?php echo $__env->make("profile.userInfo.userItems", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		<table width="100%">
+			<tr>
+				<td>Acc created:</td>
+				<td align="right"><?php echo $userData->created_at; ?></td>
+			</tr>
+			<tr>
+				<td>Last activity:</td>
+				<td align="right"><?php echo $userData->updated_at; ?></td>
+			</tr>
+		</table>
+		<div class="pull-left">
+			<a href="http://dotabuff.com/players/<?php echo $userData->id; ?>" target="_blank"><i
+				class=" icon-tasks"></i>DotaBuff-Profile</a>
+			</div>
+			<div class="pull-right" align="right">
+				<a href="http://steamcommunity.com/profiles/<?php echo $userData->id; ?>" target="_blank"><i
+					class="icon-user"></i>Steam-Profile</a>
+				</div>
+			<div class="clearer"></div>
+				<?php foreach($matchtypes as $key => $type): ?>
+				<?php if($key === 0): ?>
+				<?php $active = ""; ?>
+				<?php else: ?>
+				<?php $active = "hide"; ?>
+				<?php endif; ?>
+				<?php $data = $stats[$type->id]; ?>
+				<div id="table_userstats_<?php echo $type->id; ?>"class="row <?php echo $active; ?> tt_uc table_userstats" align="center">
+					<div class="col-sm-3">
+						<div><strong>Wins</strong></div>
+						<div><span class="text-success"><?php echo $data['Wins']; ?></span></div>
+					</div>
+					<div class="col-sm-3 p_0">
+						<div><strong>Losses</strong></div>
+						<div><span class="text-danger"><?php echo $data['Losses']; ?></span></div>
+					</div>
+					<div class="col-sm-3 p_0">
+						<div><strong>Winrate</strong></div>
+						<div><span class="text-warning"><?php echo $data['WinRate']; ?>%</span></div>
+					</div>
+					<div class="col-sm-3 p_0">
+						<div><strong>Leaves</strong></div>
+						<div><span class=""><?php echo $data['Leaves']; ?></span></div>
+					</div>
+				</div>
+				<?php endforeach; ?>
+			</div>
+		</div>
+
+		

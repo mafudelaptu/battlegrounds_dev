@@ -1,0 +1,500 @@
+[2014-02-22 00:56:51] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-02-22 00:57:02] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-02-22 01:57:13] log.ERROR: exception 'ErrorException' with message 'Undefined variable: matchHref' in /home/www/dotacinema/arena_dev/app/storage/views/b4062c024c7fbfb8bf60987704fd50c2:1
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/storage/views/b4062c024c7fbfb8bf60987704fd50c2(1): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/www/dotac...', 1, Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/www/dotac...')
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/www/dotac...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/www/dotac...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(116): Illuminate\View\View->render()
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\View->gatherData()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#9 /home/www/dotacinema/arena_dev/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'showLastMatches', Object(Illuminate\View\View))
+#13 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'showLastMatches', Array)
+#14 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#15 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#16 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#17 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#18 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#19 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#20 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#21 {main} [] []
+[2014-02-22 01:57:55] log.ERROR: exception 'ErrorException' with message 'Undefined variable: matchHref' in /home/www/dotacinema/arena_dev/app/storage/views/b4062c024c7fbfb8bf60987704fd50c2:1
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/storage/views/b4062c024c7fbfb8bf60987704fd50c2(1): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/www/dotac...', 1, Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/www/dotac...')
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/www/dotac...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/www/dotac...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(116): Illuminate\View\View->render()
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\View->gatherData()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#9 /home/www/dotacinema/arena_dev/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'showLastMatches', Object(Illuminate\View\View))
+#13 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'showLastMatches', Array)
+#14 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#15 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#16 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#17 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#18 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#19 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#20 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#21 {main} [] []
+[2014-02-22 01:58:39] log.ERROR: exception 'ErrorException' with message 'Undefined variable: matchHref' in /home/www/dotacinema/arena_dev/app/storage/views/b4062c024c7fbfb8bf60987704fd50c2:1
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/storage/views/b4062c024c7fbfb8bf60987704fd50c2(1): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/www/dotac...', 1, Array)
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/www/dotac...')
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/www/dotac...', Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/www/dotac...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(116): Illuminate\View\View->render()
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\View->gatherData()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#9 /home/www/dotacinema/arena_dev/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'showLastMatches', Object(Illuminate\View\View))
+#13 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'showLastMatches', Array)
+#14 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#15 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#16 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#17 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#18 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#19 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#20 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#21 {main} [] []
+[2014-02-22 06:43:45] log.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in /home/www/dotacinema/arena_dev/app/models/Userpoint.php:12
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/models/Userpoint.php(12): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', '/home/www/dotac...', 12, Array)
+#1 /home/www/dotacinema/arena_dev/app/models/Ladder.php(22): Userpoint::getPoints(76561198045103189, 2)
+#2 /home/www/dotacinema/arena_dev/app/models/Userpoint.php(69): Ladder::getRanking(76561198045103189, 2)
+#3 /home/www/dotacinema/arena_dev/app/models/Match.php(166): Userpoint::getGameStats(76561198045103189, 2)
+#4 /home/www/dotacinema/arena_dev/app/controllers/MatchesController.php(21): Match::getPlayersData(Object(Illuminate\Database\Eloquent\Collection), 2)
+#5 [internal function]: MatchesController->showMatch('17')
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('showMatch', Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'showMatch', Array)
+#9 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('17')
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#16 {main} [] []
+[2014-02-22 06:43:53] log.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in /home/www/dotacinema/arena_dev/app/models/Userpoint.php:12
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/models/Userpoint.php(12): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', '/home/www/dotac...', 12, Array)
+#1 /home/www/dotacinema/arena_dev/app/models/Ladder.php(22): Userpoint::getPoints(76561198045103189, 2)
+#2 /home/www/dotacinema/arena_dev/app/models/Userpoint.php(69): Ladder::getRanking(76561198045103189, 2)
+#3 /home/www/dotacinema/arena_dev/app/models/Match.php(166): Userpoint::getGameStats(76561198045103189, 2)
+#4 /home/www/dotacinema/arena_dev/app/controllers/MatchesController.php(21): Match::getPlayersData(Object(Illuminate\Database\Eloquent\Collection), 2)
+#5 [internal function]: MatchesController->showMatch('17')
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('showMatch', Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'showMatch', Array)
+#9 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('17')
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#16 {main} [] []
+[2014-02-22 06:45:02] log.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in /home/www/dotacinema/arena_dev/app/controllers/MatchesController.php:21
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/controllers/MatchesController.php(21): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', '/home/www/dotac...', 21, Array)
+#1 [internal function]: MatchesController->showMatch('17')
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('showMatch', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'showMatch', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('17')
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-02-22 06:46:08] log.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in /home/www/dotacinema/arena_dev/app/controllers/MatchesController.php:21
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/controllers/MatchesController.php(21): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', '/home/www/dotac...', 21, Array)
+#1 [internal function]: MatchesController->showMatch('171')
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('showMatch', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'showMatch', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('171')
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-02-22 06:47:34] log.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in /home/www/dotacinema/arena_dev/app/controllers/MatchesController.php:21
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/controllers/MatchesController.php(21): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', '/home/www/dotac...', 21, Array)
+#1 [internal function]: MatchesController->showMatch('171')
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('showMatch', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'showMatch', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('171')
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-02-22 06:51:15] log.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in /home/www/dotacinema/arena_dev/app/controllers/MatchesController.php:21
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/controllers/MatchesController.php(21): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', '/home/www/dotac...', 21, Array)
+#1 [internal function]: MatchesController->showMatch('171')
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('showMatch', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'showMatch', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('171')
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-02-22 09:01:52] log.ERROR: NotFoundHttpException Route: http://www.dotacinema.com/arena/news [] []
+[2014-02-22 09:01:52] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-22 09:26:45] log.ERROR: NotFoundHttpException Route: http://www.dotacinema.com/arena/2 [] []
+[2014-02-22 09:26:45] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-02-22 10:48:41] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-02-22 10:49:35] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-02-22 21:08:03] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-22 21:16:30] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-22 21:22:09] log.ERROR: exception 'Exception' with message 'String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:32
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php(32): SimpleXMLElement->__construct('http://steamcom...', 0, true)
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#2 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#3 /home/www/dotacinema/arena_dev/app/models/Login.php(124): SteamId->__construct('765611980370621...')
+#4 /home/www/dotacinema/arena_dev/app/models/Login.php(71): Login::updateSteamUser('765611980370621...')
+#5 /home/www/dotacinema/arena_dev/app/routes.php(80): Login::insertNewUserAndLogin('765611980370621...')
+#6 [internal function]: {closure}()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main}
+
+Next exception 'SteamCondenserException' with message 'XML could not be parsed: String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:38
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#2 /home/www/dotacinema/arena_dev/app/models/Login.php(124): SteamId->__construct('765611980370621...')
+#3 /home/www/dotacinema/arena_dev/app/models/Login.php(71): Login::updateSteamUser('765611980370621...')
+#4 /home/www/dotacinema/arena_dev/app/routes.php(80): Login::insertNewUserAndLogin('765611980370621...')
+#5 [internal function]: {closure}()
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-02-22 23:26:58] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-22 23:26:58] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-22 23:35:38] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-22 23:35:41] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-22 23:35:41] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-22 23:37:22] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-22 23:37:24] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-22 23:37:24] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-22 23:38:30] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-22 23:38:33] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-22 23:38:33] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-22 23:42:06] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-22 23:42:08] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-22 23:42:08] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-22 23:42:12] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-22 23:42:35] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-22 23:42:38] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-22 23:42:38] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-22 23:51:06] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-22 23:51:08] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-22 23:51:09] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-02-22 23:51:39] log.ERROR: exception 'Illuminate\Session\TokenMismatchException' in /home/www/dotacinema/arena_dev/app/filters.php:91
+Stack trace:
+#0 [internal function]: {closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('csrf', Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []

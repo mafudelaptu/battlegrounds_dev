@@ -1,0 +1,9 @@
+<span class="input-group-addon cancelWhisper t pointer" title="cancel whispering">
+	<i class="fa fa-times"></i>
+</span>
+<span class="input-group-addon t switch pointer" title="change back to All-Chat" data-mode="AllChat">
+	<i class="fa fa-caret-right"></i>&nbsp;<i class="fa fa-comments"></i>
+</span>
+<span class="input-group-addon whisperUser" data-id="<?php echo e($user_id); ?>" data-name="<?php echo e($name); ?>" data-avatar="<?php echo e($avatar); ?>">
+	<?php echo $__env->make("prototypes.username", array("username"=>$name, "user_id"=>$user_id, "credits"=>0, "truncateValue"=>10, "avatar"=>$avatar, "link"=>false, "avatarWidth"=>16), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+</span>

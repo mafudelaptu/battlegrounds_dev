@@ -1,0 +1,76 @@
+<div class="row">
+	<?php if($matchState != "closed"): ?>
+	<div class="col-sm-8">
+		<div class="alert alert-info">
+			
+			<?php if($host->user_id == Auth::user()->id): ?>
+
+			<strong>You are Host of this Match! <br></strong>
+			Now go into Dota2 and create a <strong>lobby</strong>. Therefore
+			click on <i>"Play"</i> -> <i>"create Lobby"</i>. Set the password to
+			the current MatchID: <strong><?php echo $matchData->id; ?></strong>, the Matchmode to <strong><?php echo $matchData->matchmode; ?></strong>
+			and Region to <strong><?php echo $matchData->region; ?></strong>
+
+			<?php else: ?>
+			<?php if($host->user_id > 0): ?>
+			Host of this Match is <img alt="Avatar" src="<?php echo $host->avatar; ?>" width="25" height="25">&nbsp;<?php echo $host->name; ?>. The Lobby password is <strong><?php echo $match_id; ?></strong>
+			<?php endif; ?>
+			<?php endif; ?>
+		
+		</div>
+	</div>
+	<?php endif; ?>
+
+	<?php if($inMatch): ?>
+	<div class="col-sm-4">
+
+		You have <span id="userUpvotesLeft">
+		<?php if($voteCounts->upvotes > 0): ?>
+		<?php echo $voteCounts->upvotes; ?>
+		<?php else: ?>
+		0
+		<?php endif; ?>
+	</span>
+	Upvotes and <span id="userDownvotesLeft">
+	<?php if($voteCounts->downvotes > 0): ?>
+	<?php echo $voteCounts->downvotes; ?>
+	<?php else: ?>
+	0
+	<?php endif; ?>
+</span>
+Downvotes left
+<a href="<?php echo URL::to('help/faq'); ?>"
+	target="_blank" class="t"
+	title="What is the Credit-System and how does this work? "><i class="fa fa-question-circle"></i></a>
+</div>
+<?php endif; ?>
+</div>
+<?php if($matchData->matchtype_id == 2): ?>
+<button class="button mb_5" onclick="$('#rules').slideToggle();">Rules</button>
+<div class="box_content" id="rules" style="display:none">
+	<strong>Rules: </strong>
+	<ul class="ulwp">
+		<li>Win:
+			<ul class="ulwp">
+				<li>First to 2 kills or</li>
+				<li>2 Towers destroyed</li>
+			</ul>
+		</li>
+		<li>Not Allowed
+			<ul class="ulwp">
+				<li>Jungling</li>
+				<li>Major creep/blocks/reroutes (like Fissure)</li>
+				<li>Soul Ring</li>
+			</ul>
+		</li>
+		<li>Allowed
+			<ul class="ulwp">
+				<li>Runes and Bottle Crowing</li>
+				<li>Upgrading Courier</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+<?php endif; ?>
+
+

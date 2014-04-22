@@ -1,0 +1,42 @@
+
+<?php $__env->startSection('main'); ?>
+
+<h1>All Skillbrackettypes</h1>
+
+<p><?php echo link_to_route('admin.skillbrackettypes.create', 'Add new skillbrackettype'); ?></p>
+
+<?php if ($skillbrackettypes->count()): ?>
+	<table class="table table-striped table-bordered">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Winpoints</th>
+				<th>Losepoints</th>
+				<th>Active</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<?php foreach ($skillbrackettypes as $skillbrackettype): ?>
+				<tr>
+					<td><?php echo e($skillbrackettype->name); ?></td>
+					<td><?php echo e($skillbrackettype->winpoints); ?></td>
+					<td><?php echo e($skillbrackettype->losepoints); ?></td>
+					<td><?php echo e($skillbrackettype->active); ?></td>
+                    <td><?php echo link_to_route('admin.skillbrackettypes.edit', 'Edit', array($skillbrackettype->id), array('class' => 'btn btn-info')); ?></td>
+                    <td>
+                        <?php echo Form::open(array('method' => 'DELETE', 'route' => array('admin.skillbrackettypes.destroy', $skillbrackettype->id))); ?>
+                            <?php echo Form::submit('Delete', array('class' => 'btn btn-danger')); ?>
+                        <?php echo Form::close(); ?>
+                    </td>
+				</tr>
+			<?php endforeach; ?>
+		</tbody>
+	</table>
+<?php else: ?>
+	There are no skillbrackettypes
+<?php endif; ?>
+
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.scaffold', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

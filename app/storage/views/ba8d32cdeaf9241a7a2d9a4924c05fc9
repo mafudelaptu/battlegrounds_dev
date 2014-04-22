@@ -1,0 +1,5 @@
+<?php 
+	$medalIconBg = "background-image: url('".URL::to("img/skillbracket/icons/".$skillbracket_id.".png")."');";
+ ?>
+<div class="medalIcon medalIconBgClass t" title="<?php echo $skillbracket; ?>-Bracket" style="<?php echo $medalIconBg; ?>" >
+</div>

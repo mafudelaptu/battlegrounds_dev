@@ -1,0 +1,135 @@
+[2014-02-23 14:45:05] log.ERROR: exception 'ErrorException' with message 'Operation timed out after 4000 milliseconds with 1448 out of 10658 bytes received' in /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php:1027
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(1024, 'Operation timed...', '/home/www/dotac...', 1027, Array)
+#1 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(1027): trigger_error('Operation timed...')
+#2 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(973): CronjobDoAllController->curl_get('http://api.stea...', Array)
+#3 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(62): CronjobDoAllController->getHeroList()
+#4 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#6 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2014-02-23 15:45:05] log.ERROR: exception 'ErrorException' with message 'Operation timed out after 4002 milliseconds with 0 bytes received' in /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php:1027
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(1024, 'Operation timed...', '/home/www/dotac...', 1027, Array)
+#1 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(1027): trigger_error('Operation timed...')
+#2 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(973): CronjobDoAllController->curl_get('http://api.stea...', Array)
+#3 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(62): CronjobDoAllController->getHeroList()
+#4 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#6 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2014-02-23 16:00:06] log.ERROR: exception 'ErrorException' with message 'connect() timed out!' in /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php:1027
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(1024, 'connect() timed...', '/home/www/dotac...', 1027, Array)
+#1 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(1027): trigger_error('connect() timed...')
+#2 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(973): CronjobDoAllController->curl_get('http://api.stea...', Array)
+#3 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(62): CronjobDoAllController->getHeroList()
+#4 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#6 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2014-02-23 16:39:05] log.ERROR: exception 'ErrorException' with message 'Operation timed out after 4001 milliseconds with 0 bytes received' in /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php:1027
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(1024, 'Operation timed...', '/home/www/dotac...', 1027, Array)
+#1 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(1027): trigger_error('Operation timed...')
+#2 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(973): CronjobDoAllController->curl_get('http://api.stea...', Array)
+#3 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(62): CronjobDoAllController->getHeroList()
+#4 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#6 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2014-02-23 18:18:06] log.ERROR: exception 'ErrorException' with message 'Operation timed out after 4000 milliseconds with 1448 out of 10658 bytes received' in /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php:1027
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(1024, 'Operation timed...', '/home/www/dotac...', 1027, Array)
+#1 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(1027): trigger_error('Operation timed...')
+#2 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(973): CronjobDoAllController->curl_get('http://api.stea...', Array)
+#3 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(62): CronjobDoAllController->getHeroList()
+#4 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#6 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2014-02-23 18:36:06] log.ERROR: exception 'ErrorException' with message 'Operation timed out after 4000 milliseconds with 4344 out of 10658 bytes received' in /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php:1027
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(1024, 'Operation timed...', '/home/www/dotac...', 1027, Array)
+#1 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(1027): trigger_error('Operation timed...')
+#2 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(973): CronjobDoAllController->curl_get('http://api.stea...', Array)
+#3 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(62): CronjobDoAllController->getHeroList()
+#4 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#6 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2014-02-23 18:39:05] log.ERROR: exception 'ErrorException' with message 'Operation timed out after 4001 milliseconds with 0 bytes received' in /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php:1027
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(1024, 'Operation timed...', '/home/www/dotac...', 1027, Array)
+#1 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(1027): trigger_error('Operation timed...')
+#2 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(973): CronjobDoAllController->curl_get('http://api.stea...', Array)
+#3 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(62): CronjobDoAllController->getHeroList()
+#4 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#6 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2014-02-23 19:09:05] log.ERROR: exception 'ErrorException' with message 'Operation timed out after 4000 milliseconds with 4344 out of 10658 bytes received' in /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php:1027
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(1024, 'Operation timed...', '/home/www/dotac...', 1027, Array)
+#1 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(1027): trigger_error('Operation timed...')
+#2 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(973): CronjobDoAllController->curl_get('http://api.stea...', Array)
+#3 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(62): CronjobDoAllController->getHeroList()
+#4 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#6 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2014-02-23 21:09:06] log.ERROR: exception 'ErrorException' with message 'Operation timed out after 4000 milliseconds with 5792 out of 10658 bytes received' in /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php:1027
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(1024, 'Operation timed...', '/home/www/dotac...', 1027, Array)
+#1 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(1027): trigger_error('Operation timed...')
+#2 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(973): CronjobDoAllController->curl_get('http://api.stea...', Array)
+#3 /home/www/dotacinema/arena_dev/app/controllers/DoAllCronjobsController.php(62): CronjobDoAllController->getHeroList()
+#4 /home/www/dotacinema/arena_dev/app/commands/DoAllCronjobs.php(41): CronjobDoAllController->doAllCronjobs()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(108): DoAllCronjobs->fire()
+#6 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(244): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Console/Command.php(96): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(898): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(191): Symfony\Component\Console\Application->doRunCommand(Object(DoAllCronjobs), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /home/www/dotacinema/arena_dev/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/www/dotacinema/arena_dev/artisan(57): Symfony\Component\Console\Application->run()
+#12 {main} [] []

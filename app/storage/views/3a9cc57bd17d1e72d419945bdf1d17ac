@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style>
+	table form { margin-bottom: 0; }
+	form ul { margin-left: 0; list-style: none; }
+	.error { color: red; font-style: italic; }
+	body { padding-top: 20px; }
+	</style>
+	<meta name="csrf-token" content="<?= csrf_token() ?>">
+	<?php echo HTML::style("css/bootstrap.css"); ?>
+	<?php echo HTML::style("css/bootstrap-theme.min.css"); ?>
+	<?php echo HTML::style("css/font-awesome.min.css"); ?>
+	<?php echo HTML::style("css/main.css"); ?>
+	<?php echo HTML::style("css/bootstrap_datatable.css"); ?>
+	<?php echo HTML::style("css/jquery.bracket.min.css"); ?>
+	<?php echo HTML::style("css/jquery.fileupload.css"); ?>
+	<?php echo HTML::style("css/findMatch/findMatch.css"); ?>
+	<?php echo HTML::style("css/findMatch/queueStats.css"); ?>
+	<?php echo HTML::style("css/findMatch/modal.css"); ?>
+	<?php echo HTML::style("css/match/match.css"); ?>
+	<?php echo HTML::style("css/profile/profile.css"); ?>
+	<?php echo HTML::style("css/news/news.css"); ?>
+	<?php echo HTML::style("css/events/events.css"); ?>
+
+	<?php echo HTML::script('js/10.jquery-1.10.2.min.js'); ?>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="main-container">
+			<?php $__env->startSection("topnavi"); ?>
+			<?php echo $__env->make("admin.navigation.topnavi", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+			<?php echo $__env->yieldSection(); ?>
+			<div class="container">
+				<?php if (Session::has('message')): ?>
+				<div class="flash alert">
+					<p><?php echo Session::get('message'); ?></p>
+				</div>
+				<?php endif; ?>
+
+				<?php echo $__env->yieldContent('main'); ?>
+			</div>
+
+		</div>
+		<div class="push"></div>	
+	</div>
+	<?php $__env->startSection("footer"); ?>
+		<?php echo $__env->make("footer", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+	<?php echo $__env->yieldSection(); ?>
+	<?php echo $__env->make('generalModal', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+
+
+</body>
+
+</html>

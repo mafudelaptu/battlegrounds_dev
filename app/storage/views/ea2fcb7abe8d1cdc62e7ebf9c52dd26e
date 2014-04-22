@@ -1,0 +1,8 @@
+<div class="row">
+	<div class="col-sm-6">
+		<?php echo $__env->make("home.home.mm.index", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+	</div>
+	<div class="col-sm-6">
+		<?php echo $__env->make("home.news.index", array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+	</div>
+</div>

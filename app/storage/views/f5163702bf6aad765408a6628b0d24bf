@@ -1,0 +1,54 @@
+
+<?php $__env->startSection('main'); ?>
+
+<h1>Create News</h1>
+
+<?php echo Form::open(array('route' => 'admin.news.store')); ?>
+	<ul>
+        <li>
+            <?php echo Form::label('title', 'Title:'); ?>
+            <?php echo Form::text('title'); ?>
+        </li>
+
+        <li>
+            <?php echo Form::label('content', 'Content:'); ?>
+            <?php echo Form::textarea('content'); ?>
+        </li>
+
+        <li>
+            <?php echo Form::label('order', 'Order:'); ?>
+            <?php echo Form::input('number', 'order'); ?>
+        </li>
+
+        <li>
+            <?php echo Form::label('active', 'Active:'); ?>
+            <?php echo Form::input('number', 'active'); ?>
+        </li>
+
+        <li>
+            <?php echo Form::label('show_date', 'Show_date:'); ?>
+            <?php echo Form::text('show_date'); ?>
+        </li>
+
+        <li>
+            <?php echo Form::label('end_date', 'End_date:'); ?>
+            <?php echo Form::text('end_date'); ?>
+        </li>
+
+		<li>
+			<?php echo Form::submit('Submit', array('class' => 'btn btn-info')); ?>
+		</li>
+	</ul>
+<?php echo Form::close(); ?>
+
+<?php if ($errors->any()): ?>
+	<ul>
+		<?php echo implode('', $errors->all('<li class="error">:message</li>')); ?>
+	</ul>
+<?php endif; ?>
+
+<?php $__env->stopSection(); ?>
+
+
+
+<?php echo $__env->make('layouts.scaffold', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

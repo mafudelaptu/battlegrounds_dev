@@ -1,0 +1,36 @@
+
+<?php $__env->startSection('main'); ?>
+
+<h1>All BanlistReasons</h1>
+
+<p><?php echo link_to_route('admin.banlistreasons.create', 'Add new banlistReason'); ?></p>
+
+<?php if ($banlistreasons->count()): ?>
+	<table class="table table-striped table-bordered">
+		<thead>
+			<tr>
+				<th>Name</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<?php foreach ($banlistreasons as $banlistReason): ?>
+				<tr>
+					<td><?php echo e($banlistReason->name); ?></td>
+                    <td><?php echo link_to_route('admin.banlistreasons.edit', 'Edit', array($banlistReason->id), array('class' => 'btn btn-info')); ?></td>
+                    <td>
+                        <?php echo Form::open(array('method' => 'DELETE', 'route' => array('admin.banlistreasons.destroy', $banlistReason->id))); ?>
+                            <?php echo Form::submit('Delete', array('class' => 'btn btn-danger')); ?>
+                        <?php echo Form::close(); ?>
+                    </td>
+				</tr>
+			<?php endforeach; ?>
+		</tbody>
+	</table>
+<?php else: ?>
+	There are no banlistreasons
+<?php endif; ?>
+
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.scaffold', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

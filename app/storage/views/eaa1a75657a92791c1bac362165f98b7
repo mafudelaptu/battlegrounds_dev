@@ -1,0 +1,73 @@
+<?php if(!empty($data) && count($data) > 0): ?>
+<div id="upcomingEvents">
+	<div class="row">
+		<?php 
+		$colSize = (int) 12 / $limit;
+		?>
+		<?php for($i=0; $i<$limit; $i++): ?>
+		<div class="col-sm-<?php echo $colSize; ?>">
+			<?php if(!empty($data[$i]) && count($data[$i]) > 0): ?>
+			<div class="row">
+				<div class="col-sm-1">
+					<div class="eventDay t" title="<?php echo $data[$i]->start_day; ?>">
+					<?php 
+						$str = substr($data[$i]->start_day, 0,3);
+						echo chunk_split($str, 1, " ");
+					 ?>
+					</div>
+				</div>
+				<div class="col-sm-3 eventStatus eventContent eventBorderRight eventBG"> 
+					<?php //dd($data[$i]->status); ?>
+					<?php if($data[$i]->status == "upcoming"): ?>
+						<div class="upcoming">
+							
+						<?php 
+							$date = new DateTime($data[$i]->start_at);
+							echo $date->format("H:i");
+						 ?>
+						</div>
+						<div class="timezone">
+							<?php 
+							echo Config::get('app.timezone');
+							 ?>
+						</div>
+					<?php elseif($data[$i]->status == "check-in"): ?>
+						<div class="check-in">
+							<?php echo HTML::link("events", $data[$i]->status); ?>
+						</div>
+					<?php elseif($data[$i]->status == "check-in-closed"): ?>
+						<div class="check-in-closed text-warning">
+							<?php echo $data[$i]->status; ?>
+						</div>
+					<?php else: ?>
+					<div class="live">
+						<?php echo $data[$i]->status; ?>
+					</div>
+					<?php endif; ?>
+				</div>
+				<div class="col-sm-6 eventContent eventBG">
+					<?php echo $data[$i]->name; ?>
+				</div>
+				<div class="col-sm-1 eventContent eventBG">
+					<?php 
+						$popover = View::make('home.events.popover')
+						->with("descr", $data[$i]->description)
+						->with("data", $data[$i])
+						->with("userAlreadyInEvent", false)
+						->render();
+					 ?>
+					<i class="fa fa-info-circle pointer" id="eventPopover<?php echo $i; ?>" data-toggle="popover" data-html="true" data-title='<?php echo $data[$i]->name; ?><button type="button" id="close" class="close" onclick="closeAllPopovers()">&times;</button>' data-content="<?php echo e($popover); ?>" data-placement="top" data-trigger="click" data-container="body"></i>
+					
+				</div>
+			</div>
+			<?php endif; ?>	
+		</div>
+		<?php endfor; ?>
+	</div>
+	
+</div>
+<?php else: ?>
+<div class="alert alert-info">
+	no upcoming Events
+</div>
+<?php endif; ?>

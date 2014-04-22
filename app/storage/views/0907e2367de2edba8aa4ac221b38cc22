@@ -1,0 +1,88 @@
+<?php if(!empty($lastEvents) && count($lastEvents) > 0): ?>
+<div class="box">
+	<div class="box_title">
+		
+Last Events
+	</div>
+	<div class="box_content">
+		
+
+<?php foreach($lastEvents as $k=>$v): ?>
+<div class="media">
+	<div class="pull-left t upcomingEventTeaser"
+		title="<?php echo $v->matchmode; ?>-Tournament">
+		<?php echo $__env->make("icons.eventtype", array("matchmode_id"=>$v->matchmode_id), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+	</div>
+	<div class="media-body">
+		<h4 class="media-heading"><?php echo $v->name; ?> #<?php echo $v->event_id; ?></h4>
+		<?php echo $v->description; ?>
+
+		<div class="row">
+			<div class="col-sm-6">
+				<dl>
+					<dt style="text-align: left">Prize for Winners</dt>
+					<dd>
+						<?php echo $__env->make("icons.prizetype", array("prizetype_id"=>$nextEvent->prizetype_id, "prizecount"=>$nextEvent->prizecount, "prize"=>$nextEvent->prize, "width"=>"100"), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?><br>
+						<div class="pull-left"><?php echo $v->prizecount; ?>x <strong><?php echo $v->prize; ?></strong> 
+						</div>
+					</dd>
+				</dl>
+			</div>
+			<div class="col-sm-6">
+				<dl>
+					<dt style="text-align: left">Requirements:</dt>
+					<dd>
+						<?php if( $v->pointReq > 0 || $v->skillbracketReq > 0): ?> 
+							<?php if($v->pointReq > 0): ?>
+							<div class="pull-left">
+								>= <span class="label t" title="minimum points"><?php echo $v->pointReq; ?></span>
+							</div>
+							<?php endif; ?> 
+							<?php if( $v->skillbracketReq > 0): ?>
+							<div class="pull-left t"
+								title="minimum League: {$v.LeagueReq}">{include
+								file="prototypes/medalIcon.tpl"
+								leagueNameSimple=$v.LeagueReq}</div>
+							<?php endif; ?> 
+						<?php else: ?> Free for all 
+						<?php endif; ?>
+
+					</dd>
+				</dl>
+			</div>
+		</div>
+
+		<h4>Details</h4>
+		<?php echo $__env->make("events.eventDetails", array("data"=>$v), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		 <?php if( count($v->createdEventsData) > 0 && !empty($v->createdEventsData)): ?> 
+		 <?php //dd($v->createdEventsData[0]) ?>
+			 <?php foreach($v->createdEventsData as $kc=>$vc): ?>
+			<button class="btn btn-success pull-right goToSubEventButton" data-value="<?php echo $v->event_id; ?>"
+				data-ce="<?php echo $vc->id; ?>">Go to Sub-Event
+				#<?php echo $vc->id; ?></button>
+			<?php endforeach; ?> 
+		<?php endif; ?> 
+
+		<?php if( !empty($v->eventSubData) && count($v->eventSubData) > 0): ?>
+		<div class="clearer"></div>
+		<hr>
+		<div class="btn-link" data-toggle="collapse"
+			data-target="#lastEventsignedInPlayers<?php echo $k; ?>">Signed-in
+			Players (<?php echo $v->eventSubsCount; ?>)</div>
+
+		<div
+			id="lastEventsignedInPlayers<?php echo $k; ?>"
+			class="collapse">
+			<?php echo $__env->make("events.signedInPlayers", array("data"=>$v->eventSubData, "event"=>$v), array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		</div>
+		<?php endif; ?>
+
+	</div>
+</div>
+<?php endforeach; ?> 
+</div>
+</div>
+<?php endif; ?>
+<br>
+<br>
+

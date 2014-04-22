@@ -1,0 +1,80 @@
+<div class="row">
+	<div class="col-sm-6">
+		<dl class="dl-horizontal dlEventStyle">
+			<dt>sign-in:</dt>
+			<dd><?php echo $data->start_submission_at; ?></dd>
+			<dt>start:</dt>
+			<dd><?php echo $data->start_at; ?></dd>
+			<dt class="t" title="Tournament-Type">TT:</dt>
+			<dd>
+				<span class="t badge badge-warning"
+					data-original-title="<?php echo $data->tournamenttype; ?>"><?php echo $data->tt_shortcut; ?></span>
+				(Bo1)
+			</dd>
+			<?php if( $userAlreadyInEvent): ?>
+			<dt>Signed-in:</dt>
+			<dd>
+				<span class="label label-default"><?php echo $eventSubsCount; ?></span>
+			</dd>
+			<dt>Reached min:</dt>
+			<dd>
+				<?php if( $eventSubsCount >= $data->min_submissions): ?> 
+					<?php 
+						$reachedText = "yes";
+						$reachedClass = "success";
+					 ?>
+				 <?php else: ?> 
+				 <?php 
+						$reachedText = "no";
+						$reachedClass = "danger";
+					 ?>
+				 <?php endif; ?> 
+				 <span class="label label-<?php echo $reachedClass; ?>"><?php echo $reachedText; ?></span>
+			</dd>
+			<?php endif; ?>
+		</dl>
+
+	</div>
+	<div class="col-sm-6">
+		<dl class="dl-horizontal dlEventStyle">
+			<dt>Matchmode:</dt>
+			<dd>
+				<span class="t badge badge-info"
+					data-original-title="<?php echo $data->matchmode; ?>"><?php echo $data->mm_shortcut; ?></span>
+			</dd>
+			<dt>Region:</dt>
+			<dd>
+				<span class="t badge badge-danger"
+					data-original-title="<?php echo $data->region; ?>"><?php echo $data->r_shortcut; ?></span>
+			</dd>
+			<dt>Min Players:</dt>
+			<dd>
+				<span class="t label label-default" title="Minimum Players"><?php echo $data->min_submissions; ?></span>
+			</dd>
+			<?php if( $userAlreadyInEvent): ?>
+			<dt>Stacks:</dt>
+			<dd>
+				<?php 
+					$vielfaches = $eventSubsCount/$data->min_submissions;
+				 ?>
+				<?php if(floor($vielfaches) == 0): ?> 
+				<?php 
+					$vielfaches = 0;
+				 ?>	
+				<?php else: ?> 
+			<?php 
+				$vielfaches = floor($vielfaches);
+			 ?>
+				<?php endif; ?> 
+				<span class="label label-default t" title="<?php echo $vielfaches; ?> parallel Events will be created"><?php echo $vielfaches; ?></span>
+			</dd>
+			<dt>checked-in</dt>
+			<dd>
+				<span class="label label-default t" title="players accepted to play this event">
+					<?php echo $data->acceptedCount; ?>
+				</span>
+			</dd>
+			<?php endif; ?>
+		</dl>
+	</div>
+</div>

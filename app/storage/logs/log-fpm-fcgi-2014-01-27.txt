@@ -1,0 +1,1040 @@
+[2014-01-27 00:27:27] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/vods/images/images_shoutcasts/teams/team_2220_big_logo_SSD_TeamIcon.png [] []
+[2014-01-27 00:27:27] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 00:34:57] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/forum/forum/images/images_shoutcasts/teams/team_2410_big_logo_Sigma_logo.png [] []
+[2014-01-27 00:34:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 01:05:45] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/vods/images/images_shoutcasts/teams/team_614_big_logo_NEXT.kz.jpg [] []
+[2014-01-27 01:05:45] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 01:17:46] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/forum/images/images_shoutcasts/teams/team_1500_big_logo_OsG_TeamIcon.png [] []
+[2014-01-27 01:17:46] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 01:54:08] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-27 02:02:37] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/live/images/images_shoutcasts/teams/team_392_small_logo_alliance.png [] []
+[2014-01-27 02:02:37] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 03:47:57] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/forum/forum/images/images_shoutcasts/teams/team_401_small_logo_NaVi.png [] []
+[2014-01-27 03:47:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 04:17:31] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/live/images/images_shoutcasts/teams/team_654_small_logo_lgd.png [] []
+[2014-01-27 04:17:31] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 04:18:49] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/news/images/images_shoutcasts/teams/team_403_small_logo_empire_icon.png [] []
+[2014-01-27 04:18:49] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 04:41:54] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/news/images/images_shoutcasts/teams/team_1500_big_logo_OsG_TeamIcon.png [] []
+[2014-01-27 04:41:54] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 04:42:04] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/forum/images/images_shoutcasts/teams/team_392_small_logo_alliance.png [] []
+[2014-01-27 04:42:04] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 04:46:09] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/news/forum/images/images_shoutcasts/teams/team_2625_big_logo_RELAX_TeamIcon.png [] []
+[2014-01-27 04:46:09] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 04:55:43] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/live/images/images_shoutcasts/teams/team_401_small_logo_NaVi.png [] []
+[2014-01-27 04:55:43] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 05:34:41] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/live/images/images_shoutcasts/teams/team_1500_big_logo_OsG_TeamIcon.png [] []
+[2014-01-27 05:34:41] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 05:37:12] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/vods/images/images_shoutcasts/teams/team_2209_big_logo_speed.png [] []
+[2014-01-27 05:37:12] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 06:11:14] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/images/images_shoutcasts/teams/team_654_small_logo_lgd.png [] []
+[2014-01-27 06:11:14] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 06:50:38] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/vods/images/VOD/default.png [] []
+[2014-01-27 06:50:38] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 06:56:24] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/forum/forum/images/images_shoutcasts/teams/team_1711_big_logo_Flipside_TeamIcon.png [] []
+[2014-01-27 06:56:24] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 06:59:15] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/live/images/images_shoutcasts/teams/team_420_small_logo_liquid.png [] []
+[2014-01-27 06:59:15] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 07:04:55] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/images/images_shoutcasts/teams/team_1711_big_logo_Flipside_TeamIcon.png [] []
+[2014-01-27 07:04:55] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 07:36:28] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-27 07:36:48] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-27 07:42:20] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/images/images_shoutcasts/teams/team_1500_big_logo_OsG_TeamIcon.png [] []
+[2014-01-27 07:42:20] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 08:00:26] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/live/images/VOD/default.png [] []
+[2014-01-27 08:00:26] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 08:02:00] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/images/images_shoutcasts/teams/team_468_small_logo_tongfu.png [] []
+[2014-01-27 08:02:00] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 08:16:49] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/images/images_shoutcasts/teams/team_399_small_logo_mouz.png [] []
+[2014-01-27 08:16:49] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 08:32:24] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/images/images_shoutcasts/teams/team_392_small_logo_alliance.png [] []
+[2014-01-27 08:32:24] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 09:04:50] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/images/images_shoutcasts/teams/team_2220_big_logo_SSD_TeamIcon.png [] []
+[2014-01-27 09:04:50] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 09:09:28] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/images/images_shoutcasts/teams/team_2625_big_logo_RELAX_TeamIcon.png [] []
+[2014-01-27 09:09:28] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 09:28:51] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/forum/forum/images/VOD/default.png [] []
+[2014-01-27 09:28:51] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 09:34:16] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/news/images/VOD/default.png [] []
+[2014-01-27 09:34:16] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 09:40:06] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/images/VOD/default.png [] []
+[2014-01-27 09:40:06] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 09:48:33] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/vods/images/images_shoutcasts/teams/team_401_small_logo_NaVi.png [] []
+[2014-01-27 09:48:33] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 10:11:50] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/live/images/images_shoutcasts/teams/team_468_small_logo_tongfu.png [] []
+[2014-01-27 10:11:50] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 10:30:54] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/images/images_shoutcasts/teams/team_404_small_logo_rox_icon.png [] []
+[2014-01-27 10:30:54] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 10:34:06] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/images/images_shoutcasts/teams/team_494_small_logo_ig.png [] []
+[2014-01-27 10:34:06] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 10:36:56] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/forum/images/VOD/default.png [] []
+[2014-01-27 10:36:56] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 10:39:07] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/forum/forum/images/images_shoutcasts/teams/team_403_small_logo_empire_icon.png [] []
+[2014-01-27 10:39:07] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 10:58:04] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/vods/images/images_shoutcasts/teams/team_403_small_logo_empire_icon.png [] []
+[2014-01-27 10:58:04] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 11:05:43] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/news/images/images_shoutcasts/teams/team_654_small_logo_lgd.png [] []
+[2014-01-27 11:05:43] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 11:20:54] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/vods/images/images_shoutcasts/teams/team_1500_big_logo_OsG_TeamIcon.png [] []
+[2014-01-27 11:20:54] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 11:32:56] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/news/images/images_shoutcasts/teams/team_2410_big_logo_Sigma_logo.png [] []
+[2014-01-27 11:32:56] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 11:40:07] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/news/images/images_shoutcasts/teams/team_404_small_logo_rox_icon.png [] []
+[2014-01-27 11:40:07] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 11:57:58] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/news/images/images_shoutcasts/teams/team_494_small_logo_ig.png [] []
+[2014-01-27 11:57:58] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 12:05:18] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/live/forum/images/images_shoutcasts/teams/team_404_small_logo_rox_icon.png [] []
+[2014-01-27 12:05:18] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 12:09:13] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/live/forum/images/images_shoutcasts/teams/team_468_small_logo_tongfu.png [] []
+[2014-01-27 12:09:13] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 12:17:05] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/news/images/images_shoutcasts/teams/team_2214_big_logo_Titan_TeamIcon.png [] []
+[2014-01-27 12:17:05] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 12:18:12] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/news/forum/images/images_shoutcasts/teams/team_1711_big_logo_Flipside_TeamIcon.png [] []
+[2014-01-27 12:18:12] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 13:06:19] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-27 13:12:09] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/news/images/images_shoutcasts/teams/team_2625_big_logo_RELAX_TeamIcon.png [] []
+[2014-01-27 13:12:09] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 13:23:26] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/forum/images/images_shoutcasts/teams/team_2625_big_logo_RELAX_TeamIcon.png [] []
+[2014-01-27 13:23:26] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 13:31:30] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/news/images/images_shoutcasts/teams/team_401_small_logo_NaVi.png [] []
+[2014-01-27 13:31:30] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 14:27:04] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/images/images_shoutcasts/teams/team_471_small_logo_dk.png [] []
+[2014-01-27 14:27:04] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 14:40:03] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/live/images/images_shoutcasts/teams/team_680_big_logo_invasion%20gigabyte.jpg [] []
+[2014-01-27 14:40:03] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 15:18:39] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/vods/images/images_shoutcasts/teams/team_452_big_logo_PowerRangers_TeamIcon.png [] []
+[2014-01-27 15:18:39] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 15:34:27] log.ERROR: exception 'SteamCondenserException' with message 'This user has not yet set up their Steam Community profile.If you know them encourage him/her to set up their profile and join in on the gaming!' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php:250
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#1 /home/www/dotacinema/arena_dev/app/models/Login.php(123): SteamId->__construct('765611980470382...')
+#2 /home/www/dotacinema/arena_dev/app/routes.php(305): Login::updateSteamUser(76561198047038210)
+#3 [internal function]: {closure}()
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#10 {main} [] []
+[2014-01-27 15:34:46] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/vods/images/images_shoutcasts/teams/team_2625_big_logo_RELAX_TeamIcon.png [] []
+[2014-01-27 15:34:46] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 15:38:25] log.ERROR: exception 'Exception' with message 'String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:32
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php(32): SimpleXMLElement->__construct('http://steamcom...', 0, true)
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#2 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#3 /home/www/dotacinema/arena_dev/app/models/Login.php(123): SteamId->__construct('765611980651286...')
+#4 /home/www/dotacinema/arena_dev/app/routes.php(305): Login::updateSteamUser(76561198065128622)
+#5 [internal function]: {closure}()
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main}
+
+Next exception 'SteamCondenserException' with message 'XML could not be parsed: String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:38
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#2 /home/www/dotacinema/arena_dev/app/models/Login.php(123): SteamId->__construct('765611980651286...')
+#3 /home/www/dotacinema/arena_dev/app/routes.php(305): Login::updateSteamUser(76561198065128622)
+#4 [internal function]: {closure}()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-01-27 15:44:12] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/vods/images/images_shoutcasts/teams/team_399_small_logo_mouz.png [] []
+[2014-01-27 15:44:12] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 15:56:52] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/live/arteezy [] []
+[2014-01-27 15:56:52] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 15:57:30] log.ERROR: exception 'SteamCondenserException' with message 'This user has not yet set up their Steam Community profile.If you know them encourage him/her to set up their profile and join in on the gaming!' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php:250
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#1 /home/www/dotacinema/arena_dev/app/models/Login.php(123): SteamId->__construct('765611980470382...')
+#2 /home/www/dotacinema/arena_dev/app/routes.php(305): Login::updateSteamUser(76561198047038210)
+#3 [internal function]: {closure}()
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#10 {main} [] []
+[2014-01-27 15:58:04] log.ERROR: exception 'Exception' with message 'String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:32
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php(32): SimpleXMLElement->__construct('http://steamcom...', 0, true)
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#2 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#3 /home/www/dotacinema/arena_dev/app/models/Login.php(123): SteamId->__construct('765611980362625...')
+#4 /home/www/dotacinema/arena_dev/app/routes.php(305): Login::updateSteamUser(76561198036262558)
+#5 [internal function]: {closure}()
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main}
+
+Next exception 'SteamCondenserException' with message 'XML could not be parsed: String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:38
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#2 /home/www/dotacinema/arena_dev/app/models/Login.php(123): SteamId->__construct('765611980362625...')
+#3 /home/www/dotacinema/arena_dev/app/routes.php(305): Login::updateSteamUser(76561198036262558)
+#4 [internal function]: {closure}()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-01-27 16:00:11] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/news/images/images_shoutcasts/teams/team_471_small_logo_dk.png [] []
+[2014-01-27 16:00:11] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 16:08:58] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/news/images/images_shoutcasts/teams/team_408_small_logo_fnatic.png [] []
+[2014-01-27 16:08:58] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 16:23:57] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/forum/images/images_shoutcasts/teams/team_399_small_logo_mouz.png [] []
+[2014-01-27 16:23:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 16:37:45] log.ERROR: exception 'Exception' with message 'String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:32
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php(32): SimpleXMLElement->__construct('http://steamcom...', 0, true)
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#2 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#3 /home/www/dotacinema/arena_dev/app/models/Login.php(123): SteamId->__construct('765611980469894...')
+#4 /home/www/dotacinema/arena_dev/app/routes.php(305): Login::updateSteamUser(76561198046989493)
+#5 [internal function]: {closure}()
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main}
+
+Next exception 'SteamCondenserException' with message 'XML could not be parsed: String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:38
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#2 /home/www/dotacinema/arena_dev/app/models/Login.php(123): SteamId->__construct('765611980469894...')
+#3 /home/www/dotacinema/arena_dev/app/routes.php(305): Login::updateSteamUser(76561198046989493)
+#4 [internal function]: {closure}()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-01-27 17:54:50] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/vods/images/images_shoutcasts/teams/team_471_small_logo_dk.png [] []
+[2014-01-27 17:54:50] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 18:03:31] log.ERROR: exception 'Exception' with message 'String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:32
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php(32): SimpleXMLElement->__construct('http://steamcom...', 0, true)
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#2 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#3 /home/www/dotacinema/arena_dev/app/models/Login.php(123): SteamId->__construct('765611980470120...')
+#4 /home/www/dotacinema/arena_dev/app/models/Login.php(70): Login::updateSteamUser('765611980470120...')
+#5 /home/www/dotacinema/arena_dev/app/routes.php(41): Login::insertNewUserAndLogin('765611980470120...')
+#6 [internal function]: {closure}()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main}
+
+Next exception 'SteamCondenserException' with message 'XML could not be parsed: String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:38
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#2 /home/www/dotacinema/arena_dev/app/models/Login.php(123): SteamId->__construct('765611980470120...')
+#3 /home/www/dotacinema/arena_dev/app/models/Login.php(70): Login::updateSteamUser('765611980470120...')
+#4 /home/www/dotacinema/arena_dev/app/routes.php(41): Login::insertNewUserAndLogin('765611980470120...')
+#5 [internal function]: {closure}()
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-01-27 18:12:02] log.ERROR: exception 'Exception' with message 'String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:32
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php(32): SimpleXMLElement->__construct('http://steamcom...', 0, true)
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#2 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#3 /home/www/dotacinema/arena_dev/app/models/Login.php(123): SteamId->__construct('765611980470120...')
+#4 /home/www/dotacinema/arena_dev/app/models/Login.php(70): Login::updateSteamUser('765611980470120...')
+#5 /home/www/dotacinema/arena_dev/app/routes.php(41): Login::insertNewUserAndLogin('765611980470120...')
+#6 [internal function]: {closure}()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main}
+
+Next exception 'SteamCondenserException' with message 'XML could not be parsed: String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:38
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#2 /home/www/dotacinema/arena_dev/app/models/Login.php(123): SteamId->__construct('765611980470120...')
+#3 /home/www/dotacinema/arena_dev/app/models/Login.php(70): Login::updateSteamUser('765611980470120...')
+#4 /home/www/dotacinema/arena_dev/app/routes.php(41): Login::insertNewUserAndLogin('765611980470120...')
+#5 [internal function]: {closure}()
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-01-27 19:20:17] log.ERROR: exception 'Exception' with message 'String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:32
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php(32): SimpleXMLElement->__construct('http://steamcom...', 0, true)
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#2 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#3 /home/www/dotacinema/arena_dev/app/models/Login.php(123): SteamId->__construct('765611980258291...')
+#4 /home/www/dotacinema/arena_dev/app/routes.php(305): Login::updateSteamUser(76561198025829119)
+#5 [internal function]: {closure}()
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main}
+
+Next exception 'SteamCondenserException' with message 'XML could not be parsed: String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:38
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#2 /home/www/dotacinema/arena_dev/app/models/Login.php(123): SteamId->__construct('765611980258291...')
+#3 /home/www/dotacinema/arena_dev/app/routes.php(305): Login::updateSteamUser(76561198025829119)
+#4 [internal function]: {closure}()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-01-27 19:32:38] log.ERROR: exception 'ErrorException' with message 'Undefined index: steam_id' in /home/www/dotacinema/arena_dev/app/routes.php:40
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/routes.php(40): Illuminate\Exception\Handler->handleError(8, 'Undefined index...', '/home/www/dotac...', 40, Array)
+#1 [internal function]: {closure}()
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-01-27 19:43:35] log.ERROR: exception 'Exception' with message 'String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:32
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php(32): SimpleXMLElement->__construct('http://steamcom...', 0, true)
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#2 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#3 /home/www/dotacinema/arena_dev/app/models/Login.php(123): SteamId->__construct('765611980583160...')
+#4 /home/www/dotacinema/arena_dev/app/routes.php(305): Login::updateSteamUser(76561198058316058)
+#5 [internal function]: {closure}()
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main}
+
+Next exception 'SteamCondenserException' with message 'XML could not be parsed: String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:38
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#2 /home/www/dotacinema/arena_dev/app/models/Login.php(123): SteamId->__construct('765611980583160...')
+#3 /home/www/dotacinema/arena_dev/app/routes.php(305): Login::updateSteamUser(76561198058316058)
+#4 [internal function]: {closure}()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-01-27 19:46:19] log.ERROR: exception 'Exception' with message 'String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:32
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php(32): SimpleXMLElement->__construct('http://steamcom...', 0, true)
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#2 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#3 /home/www/dotacinema/arena_dev/app/models/Login.php(123): SteamId->__construct('765611980353372...')
+#4 /home/www/dotacinema/arena_dev/app/routes.php(305): Login::updateSteamUser(76561198035337283)
+#5 [internal function]: {closure}()
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main}
+
+Next exception 'SteamCondenserException' with message 'XML could not be parsed: String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:38
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#2 /home/www/dotacinema/arena_dev/app/models/Login.php(123): SteamId->__construct('765611980353372...')
+#3 /home/www/dotacinema/arena_dev/app/routes.php(305): Login::updateSteamUser(76561198035337283)
+#4 [internal function]: {closure}()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-01-27 19:47:19] log.ERROR: exception 'Exception' with message 'String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:32
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php(32): SimpleXMLElement->__construct('http://steamcom...', 0, true)
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#2 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#3 /home/www/dotacinema/arena_dev/app/models/Login.php(123): SteamId->__construct('765611980562883...')
+#4 /home/www/dotacinema/arena_dev/app/routes.php(305): Login::updateSteamUser(76561198056288352)
+#5 [internal function]: {closure}()
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main}
+
+Next exception 'SteamCondenserException' with message 'XML could not be parsed: String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:38
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#2 /home/www/dotacinema/arena_dev/app/models/Login.php(123): SteamId->__construct('765611980562883...')
+#3 /home/www/dotacinema/arena_dev/app/routes.php(305): Login::updateSteamUser(76561198056288352)
+#4 [internal function]: {closure}()
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-01-27 19:55:41] log.ERROR: exception 'ErrorException' with message 'Undefined index: steam_id' in /home/www/dotacinema/arena_dev/app/routes.php:40
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/routes.php(40): Illuminate\Exception\Handler->handleError(8, 'Undefined index...', '/home/www/dotac...', 40, Array)
+#1 [internal function]: {closure}()
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-01-27 19:59:49] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/live/images/images_shoutcasts/teams/team_2214_big_logo_Titan_TeamIcon.png [] []
+[2014-01-27 19:59:49] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 20:10:27] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-27 20:19:24] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 20:26:23] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-27 20:26:36] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-27 20:31:53] log.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in /home/www/dotacinema/arena_dev/app/filters.php:107
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/filters.php(107): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', '/home/www/dotac...', 107, Array)
+#1 [internal function]: {closure}(Object(Illuminate\View\View), 'composing: navi...')
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(179): call_user_func_array(Object(Closure), Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Environment.php(404): Illuminate\Events\Dispatcher->fire('composing: navi...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(79): Illuminate\View\Environment->callComposer(Object(Illuminate\View\View))
+#5 /home/www/dotacinema/arena_dev/app/storage/views/38455570beeeda4ee56ff030353bef10(1): Illuminate\View\View->render()
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/www/dotac...')
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/www/dotac...', Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/www/dotac...', Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#10 /home/www/dotacinema/arena_dev/app/storage/views/e05b91c513327e8e8f3f683a1406f060(32): Illuminate\View\View->render()
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/www/dotac...')
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/www/dotac...', Array)
+#13 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/www/dotac...', Array)
+#14 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#15 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#16 /home/www/dotacinema/arena_dev/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#17 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#18 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#19 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'home', Object(Illuminate\View\View))
+#20 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'home', Array)
+#21 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#22 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#23 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#24 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#25 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#26 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#27 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#28 {main} [] []
+[2014-01-27 20:32:06] log.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in /home/www/dotacinema/arena_dev/app/filters.php:107
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/app/filters.php(107): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', '/home/www/dotac...', 107, Array)
+#1 [internal function]: {closure}(Object(Illuminate\View\View), 'composing: navi...')
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(179): call_user_func_array(Object(Closure), Array)
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Environment.php(404): Illuminate\Events\Dispatcher->fire('composing: navi...', Array)
+#4 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(79): Illuminate\View\Environment->callComposer(Object(Illuminate\View\View))
+#5 /home/www/dotacinema/arena_dev/app/storage/views/38455570beeeda4ee56ff030353bef10(1): Illuminate\View\View->render()
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/www/dotac...')
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/www/dotac...', Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/www/dotac...', Array)
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#10 /home/www/dotacinema/arena_dev/app/storage/views/e05b91c513327e8e8f3f683a1406f060(32): Illuminate\View\View->render()
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home/www/dotac...')
+#12 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/www/dotac...', Array)
+#13 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home/www/dotac...', Array)
+#14 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#15 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#16 /home/www/dotacinema/arena_dev/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#17 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#18 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#19 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'home', Object(Illuminate\View\View))
+#20 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'home', Array)
+#21 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#22 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#23 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#24 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#25 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#26 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#27 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#28 {main} [] []
+[2014-01-27 20:46:17] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-27 20:52:33] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-27 21:03:39] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-27 21:03:40] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-27 21:03:41] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-27 21:06:44] log.ERROR: NotFoundHttpException Route: http://arena.dotacinema.com/news/images/images_shoutcasts/teams/team_653_big_logo_vici.jpg [] []
+[2014-01-27 21:06:44] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-01-27 21:13:13] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-27 22:27:27] log.ERROR: exception 'Exception' with message 'String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:32
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php(32): SimpleXMLElement->__construct('http://steamcom...', 0, true)
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#2 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#3 /home/www/dotacinema/arena_dev/app/models/Login.php(123): SteamId->__construct('765611979979171...')
+#4 /home/www/dotacinema/arena_dev/app/models/Login.php(70): Login::updateSteamUser('765611979979171...')
+#5 /home/www/dotacinema/arena_dev/app/routes.php(79): Login::insertNewUserAndLogin('765611979979171...')
+#6 [internal function]: {closure}()
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main}
+
+Next exception 'SteamCondenserException' with message 'XML could not be parsed: String could not be parsed as XML' in /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/XMLData.php:38
+Stack trace:
+#0 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(243): XMLData->getData('http://steamcom...')
+#1 /home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib/steam/community/SteamId.php(229): SteamId->fetchData()
+#2 /home/www/dotacinema/arena_dev/app/models/Login.php(123): SteamId->__construct('765611979979171...')
+#3 /home/www/dotacinema/arena_dev/app/models/Login.php(70): Login::updateSteamUser('765611979979171...')
+#4 /home/www/dotacinema/arena_dev/app/routes.php(79): Login::insertNewUserAndLogin('765611979979171...')
+#5 [internal function]: {closure}()
+#6 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(576): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /home/www/dotacinema/arena_dev/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(552): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /home/www/dotacinema/arena_dev/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 {main} [] []
+[2014-01-27 23:42:46] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-27 23:43:18] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-27 23:52:21] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-27 23:59:47] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-27 23:59:54] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-01-27 23:59:57] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Hybrid_Provider_Adapter::factory(): Failed opening required '/home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Providers/Steam.php' (include_path='/home/www/dotacinema/arena_dev/vendor/koraktor/steam-condenser/lib:.:/opt/pear-5.5.1')' in /home/www/dotacinema/arena_dev/vendor/hybridauth/hybridauth/hybridauth/Hybrid/Provider_Adapter.php:79
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
