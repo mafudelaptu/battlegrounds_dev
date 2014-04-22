@@ -1,0 +1,28 @@
+.reqNeededStatsDesc {
+    font-size: 10px;
+    color: #999;
+    text-align: center;
+    line-height: 15px;
+}
+.reqNeededHeading {
+    margin: -13px -13px 13px -13px;
+    background-color: #292929;
+    line-height: 20px;
+    font-size: 12px;
+    text-align: center;
+    color:#ffffff;
+}
+.reqNeededHeading green {
+    color:#9CDB04;
+    font-weight: bold;
+}
+.selectpicker {
+    width: 100px;
+}
+.skillbracketImg {
+    text-align: center;
+    width:100%;
+}
+.profile_userstats > span {
+    margin-right: 10px;
+}

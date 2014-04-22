@@ -1,0 +1,9 @@
+@if(!$uploaded && $showUpload && GlobalSetting::getReplayUpload())
+
+<button class="btn btn-info btn-block" id="matchSubmitReplay">
+	Upload parsed replay-files
+</button>
+<a href="">replay-upload tutorial</a>
+@else
+	
+@endif

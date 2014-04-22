@@ -1,0 +1,9 @@
+.statsNumber {
+    font-size: 18px;
+    color: #ccc;
+    font-weight: bold;
+}
+.statsDesc {
+    font-size: 12px;
+    color: #999;
+}
