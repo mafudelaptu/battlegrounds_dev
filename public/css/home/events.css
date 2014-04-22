@@ -1,0 +1,62 @@
+#upcomingEvents {
+    height: 50px;
+}
+.eventDay {
+    padding: 3px;
+    height: 60px;
+    font-size: 12px;
+    background-color: #00a9ff;
+    line-height: 18px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    display: inline-table;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.eventStatus {
+    font-weight: bold;
+}
+.eventStatus > .live {
+    font-size: 22px;
+    line-height: 42px;
+    color:red;
+    text-transform: uppercase;
+}
+.eventStatus > .upcoming {
+    font-size: 18px;
+    color: white;
+}
+.eventStatus > .timezone {
+    font-size: 14px;
+    font-weight: normal;
+}
+.eventStatus > .check-in {
+    font-size: 16px;
+    font-weight: bold;
+    color:red;
+    text-transform: uppercase;
+}
+.eventStatus > .check-in-closed {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.eventContent {
+    padding:10px;
+    text-align: center;
+}
+.eventBorderRight {
+    border-right: 1px solid #AAA;
+}
+.eventBG {
+    background-color: #454545;
+    height:60px;
+}
+.eventPopover {
+    width: 600px;
+    height: 300px;
+}

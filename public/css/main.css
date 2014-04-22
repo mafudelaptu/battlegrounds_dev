@@ -1,0 +1,712 @@
+
+.wrapper {
+
+    min-height: 100%;
+
+    height: auto !important;
+
+    height: 100%;
+
+    margin: 0 auto -80px;
+
+    /* the bottom margin is the negative value of the footer's height */
+
+}
+
+.footer, .push {
+
+    height: 80px;
+
+    /* .push must be the same height as .footer */
+
+}
+
+.footer {
+
+    margin-top: 50px;
+
+    padding: 15px;
+
+    background-color: #ededed;
+
+}
+
+.footer a {
+
+    line-height: 50px;
+
+}
+
+#wrap {
+
+    min-height: 100%;
+
+    height: auto;
+
+    height: 100%;
+
+    margin: 0 auto -80px;
+
+    padding-bottom: 80px;
+
+}
+
+.main-container {
+
+    width:1212px;
+
+    margin:0 auto;
+
+}
+
+#topNavi ul.nav > li > a {
+
+    height: 73px;
+
+    line-height: 43px;
+
+    font-size: 18px;
+
+}
+
+#arenaNavigation ul.nav > li > a {
+
+    height: 71px;
+
+    line-height: 43px;
+
+}
+
+#topNavi {
+
+    border-radius: 0px;
+
+    box-shadow: none;
+
+}
+
+#header_section {
+
+    background-color: #242424;
+
+}
+
+#header_stats {
+
+    background-color: whitesmoke;
+
+    margin:10px;
+
+}
+
+#header_stats ul {
+
+    list-style: none;
+
+    padding: 0;
+
+    margin:0;
+
+}
+
+.tab-pane {
+
+    padding:5px;
+
+}
+
+.text-bronze {
+
+    color: peru;
+
+    text-shadow: 1px 1px 2px #999;
+
+}
+
+.text-silver {
+
+    color: silver;
+
+    text-shadow: 1px 1px 2px #666;
+
+}
+
+.text-gold {
+
+    color: gold;
+
+    text-shadow: 1px 1px 2px #666;
+
+}
+
+.clearer {
+
+    clear:both;
+
+}
+
+.label-inverse {
+
+    background-color: #000;
+
+}
+
+.badge-danger {
+
+    background-color: #d9534f;
+
+}
+
+.badge-primary {
+
+    background-color: #428bca;
+
+}
+
+.badge-warning {
+
+    background-color: #f0ad4e;
+
+}
+
+.badge-info {
+
+    background-color: #5bc0de;
+
+}
+
+.badge-success {
+
+    background-color: #5cb85c;
+
+}
+
+tr.info>td {
+
+    background-color: #d9edf7 !important;
+
+}
+
+tr.warning>td {
+
+    background-color: #fcf8e3 !important;
+
+}
+
+tr.danger>td {
+
+    background-color: #f2dede !important;
+
+}
+
+tr.success>td {
+
+    background-color: #dff0d8 !important;
+
+}
+
+.bg_info {
+
+    background-color: #d9edf7 !important;
+
+}
+
+.bg_success {
+
+    background-color: #dff0d8 !important;
+
+}
+
+.bg_warning {
+
+    background-color: #fcf8e3 !important;
+
+}
+
+.bg_danger {
+
+    background-color: #f2dede !important;
+
+}
+
+.bg_darkgrey {
+
+    background-color: #333333 !important;
+
+}
+
+.text-bronze {
+
+    color: peru;
+
+}
+
+.text-silver {
+
+    color: silver;
+
+}
+
+.text-gold {
+
+    color: gold;
+
+}
+
+.medalIcon {
+
+    width:32px;
+
+    height:32px;
+
+}
+
+.medalIconBgClass {
+
+    background-repeat: no-repeat;
+
+}
+
+.medalIconInnerText {
+
+    font-weight:bold;
+
+    color:whitesmoke;
+
+    padding: 2px 0 0 11px;
+
+}
+
+.notificationIconText {
+
+    font-size: 10px;
+
+    height: 11px;
+
+    padding: 1px 3px;
+
+    position: absolute;
+
+    right: 18px;
+
+    top: 14px;
+
+}
+
+.pointer {
+
+    cursor: pointer;
+
+}
+
+.rotate {
+
+    -webkit-transform: rotate(-90deg);
+
+    -moz-transform: rotate(-90deg);
+
+    -ms-transform: rotate(-90deg);
+
+    -o-transform: rotate(-90deg);
+
+    transform: rotate(-90deg);
+
+    /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+
+    -webkit-transform-origin: 50% 50%;
+
+    -moz-transform-origin: 50% 50%;
+
+    -ms-transform-origin: 50% 50%;
+
+    -o-transform-origin: 50% 50%;
+
+    transform-origin: 50% 50%;
+
+    /* Should be unset in IE9+ I think. */
+
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+/*Loader*/
+
+#circleG {
+
+    width:149.33333333333334px;
+
+    display: inline-block;
+
+}
+
+.circleG {
+
+    background-color:#404040;
+
+    float:left;
+
+    height:32px;
+
+    margin-left:17px;
+
+    width:32px;
+
+    -moz-animation-name:bounce_circleG;
+
+    -moz-animation-duration:1.9500000000000002s;
+
+    -moz-animation-iteration-count:infinite;
+
+    -moz-animation-direction:linear;
+
+    -moz-border-radius:21px;
+
+    -webkit-animation-name:bounce_circleG;
+
+    -webkit-animation-duration:1.9500000000000002s;
+
+    -webkit-animation-iteration-count:infinite;
+
+    -webkit-animation-direction:linear;
+
+    -webkit-border-radius:21px;
+
+    -o-animation-name:bounce_circleG;
+
+    -o-animation-duration:1.9500000000000002s;
+
+    -o-animation-iteration-count:infinite;
+
+    -o-animation-direction:linear;
+
+    -o-border-radius:21px;
+
+    -ms-animation-name:bounce_circleG;
+
+    -ms-animation-duration:1.9500000000000002s;
+
+    -ms-animation-iteration-count:infinite;
+
+    -ms-animation-direction:linear;
+
+    -ms-border-radius:21px;
+
+    animation-name:bounce_circleG;
+
+    animation-duration:1.9500000000000002s;
+
+    animation-iteration-count:infinite;
+
+    animation-direction:linear;
+
+    border-radius:21px;
+
+}
+
+#circleG_1 {
+
+    -moz-animation-delay:0.39s;
+
+    -webkit-animation-delay:0.39s;
+
+    -o-animation-delay:0.39s;
+
+    -ms-animation-delay:0.39s;
+
+    animation-delay:0.39s;
+
+}
+
+#circleG_2 {
+
+    -moz-animation-delay:0.9099999999999999s;
+
+    -webkit-animation-delay:0.9099999999999999s;
+
+    -o-animation-delay:0.9099999999999999s;
+
+    -ms-animation-delay:0.9099999999999999s;
+
+    animation-delay:0.9099999999999999s;
+
+}
+
+#circleG_3 {
+
+    -moz-animation-delay:1.1700000000000002s;
+
+    -webkit-animation-delay:1.1700000000000002s;
+
+    -o-animation-delay:1.1700000000000002s;
+
+    -ms-animation-delay:1.1700000000000002s;
+
+    animation-delay:1.1700000000000002s;
+
+}
+
+@-moz-keyframes bounce_circleG {
+
+    0% {
+
+    }
+
+    50% {
+
+        background-color:#0088FF
+
+    }
+
+    100% {
+
+    }
+
+}
+
+@-webkit-keyframes bounce_circleG {
+
+    0% {
+
+    }
+
+    50% {
+
+        background-color:#0088FF
+
+    }
+
+    100% {
+
+    }
+
+}
+
+@-o-keyframes bounce_circleG {
+
+    0% {
+
+    }
+
+    50% {
+
+        background-color:#0088FF
+
+    }
+
+    100% {
+
+    }
+
+}
+
+@-ms-keyframes bounce_circleG {
+
+    0% {
+
+    }
+
+    50% {
+
+        background-color:#0088FF
+
+    }
+
+    100% {
+
+    }
+
+}
+
+@keyframes bounce_circleG {
+
+    0% {
+
+    }
+
+    50% {
+
+        background-color:#0088FF
+
+    }
+
+    100% {
+
+    }
+
+}
+
+#notification-menu > ul > li > a {
+
+    max-width: 350px;
+
+    white-space: normal;
+
+}
+
+.red_border {
+
+    border: 1px solid red !important;
+
+}
+
+.ulwp {
+
+    margin-left:20px;
+
+}
+
+.padding0 {
+
+    padding:0;
+
+}
+
+.inline-block {
+
+    display: inline-block;
+
+}
+
+.mt_5 {
+
+    margin-top: 5px !important;
+
+}
+
+.mt_10 {
+
+    margin-top: 10px;
+
+}
+
+.m_0 {
+
+    margin:0;
+
+}
+
+.p_0 {
+
+    padding:0 !important;
+
+}
+
+.p_5 {
+
+    padding:5px !important;
+
+}
+
+.p_8 {
+
+    padding:8px;
+
+}
+
+.lh_58 {
+
+    line-height: 58px;
+
+}
+
+.p_10 {
+
+    padding: 10px !important;
+
+}
+
+.pt_10 {
+
+    padding-top: 10px !important;
+
+}
+
+.mb_0 {
+
+    margin-bottom:0 !important;
+
+}
+
+.tt_uc {
+
+    text-transform: uppercase;
+
+}
+
+.h_247 {
+
+    height:247px;
+
+}
+
+.mh_57 {
+
+    min-height: 57px;
+
+}
+
+.strong {
+
+    font-weight: bold !important;
+
+}
+
+.tt_none {
+
+    text-transform: none;
+
+}
+
+.mr_10 {
+
+    margin-right: 10px;
+
+}
+
+.mr_15 {
+
+    margin-right: 15px;
+
+}
+
+.mr_20 {
+
+    margin-right: 20px;
+
+}
+
+.ml_10 {
+
+    margin-left: 10px;
+
+}
+
+.ml_15 {
+
+    margin-left: 15px;
+
+}
+
+.ml_20 {
+
+    margin-left: 20px;
+
+}
+
+.mt_n7 {
+
+    margin-top: -7px;
+
+}
+
+.mb_n7 {
+
+    margin-bottom: -7px;
+
+}
+
+.mt_10 {
+
+    margin-top: 10px;
+
+}

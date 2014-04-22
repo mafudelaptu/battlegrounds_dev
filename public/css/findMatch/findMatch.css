@@ -1,0 +1,12 @@
+#selectedMatchmodesCheckboxes > label{
+	display: inline-block;
+	width: 60px;
+}
+
+#selectedMatchmodesCheckboxes > label .badge{
+	width: 35px;
+}
+
+#selectedMatchmodesCheckboxes > label:first-child{
+	margin-top: -5px;
+}

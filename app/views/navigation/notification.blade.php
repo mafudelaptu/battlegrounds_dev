@@ -1,0 +1,25 @@
+@if(Auth::check())
+	<li class="user_notifications">
+		<?php 
+			if($this->forumConnector->member['msg_count_new']!="0"){	
+				echo '<a title="Messenger" href="./forum/index.php?app=members&amp;module=messaging" class="cat_icon messages">
+					<span class="notification">'. $this->forumConnector->member['msg_count_new'].'</span>
+				</a>';
+			}else{	
+				echo '<a title="Messenger" href="./forum/index.php?app=members&amp;module=messaging" class="cat_icon messages">
+						</a>';
+			}
+
+			if($this->forumConnector->member['notification_cnt']!="0"){	
+				echo '<a title="Notifications" href="./forum/index.php?app=core&amp;module=usercp&amp;area=notificationlog" class="cat_icon notifications">
+							<span class="notification">'. $this->forumConnector->member['notification_cnt'].'</span>
+						</a>';
+			}else{	
+				echo '<a title="Notifications" href="./forum/index.php?app=core&amp;module=usercp&amp;area=notificationlog" class="cat_icon notifications"></a>';
+			}
+		?>
+	</li>
+
+
+@endif
+

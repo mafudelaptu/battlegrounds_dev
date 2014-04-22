@@ -1,0 +1,1 @@
+{{HTML::image("img/icons/thumb_up.png", "upvote")}}
